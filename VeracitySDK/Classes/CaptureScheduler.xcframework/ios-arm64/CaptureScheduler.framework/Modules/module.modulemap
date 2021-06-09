@@ -1,0 +1,11 @@
+framework module CaptureScheduler {
+  umbrella header "CaptureScheduler.h"
+
+  export *
+  module * { export * }
+}
+
+module CaptureScheduler.Swift {
+    header "CaptureScheduler-Swift.h"
+    requires objc
+}

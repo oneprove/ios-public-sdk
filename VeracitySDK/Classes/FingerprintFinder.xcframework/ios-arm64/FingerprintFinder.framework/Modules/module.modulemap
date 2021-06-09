@@ -1,0 +1,6 @@
+framework module FingerprintFinder {
+  umbrella header "FingerprintFinder.h"
+
+  export *
+  module * { export * }
+}

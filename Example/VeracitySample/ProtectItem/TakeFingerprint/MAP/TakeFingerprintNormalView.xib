@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TakeFingerprintNormalView" customModule="Veracity_Authenticator" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="OF1-Tx-Mbe" id="e3g-ON-uqr"/>
+                <outlet property="flashCoverView" destination="T0R-u4-3ZB" id="GnQ-Ip-i81"/>
+                <outlet property="mapView" destination="2MR-Xd-U5N" id="ccb-av-wX8"/>
+                <outlet property="zoomLabel" destination="npz-lY-zsQ" id="LMa-Je-pEy"/>
+                <outlet property="zoomSlider" destination="fOZ-mg-XzN" id="Gnn-VI-Kpo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OF1-Tx-Mbe">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2MR-Xd-U5N" userLabel="Map View" customClass="MAPView" customModule="MAPView">
+                    <rect key="frame" x="0.0" y="54" width="375" height="587"/>
+                </view>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0R-u4-3ZB" userLabel="Flash Cover View">
+                    <rect key="frame" x="0.0" y="54" width="375" height="587"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZOOM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npz-lY-zsQ">
+                    <rect key="frame" x="20" y="590" width="50.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="White"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fOZ-mg-XzN">
+                    <rect key="frame" x="88.5" y="585.5" width="268.5" height="31"/>
+                    <connections>
+                        <action selector="zoomDidChanged:" destination="-1" eventType="valueChanged" id="tpP-vv-4vi"/>
+                    </connections>
+                </slider>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="LYs-yQ-V1z"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="T0R-u4-3ZB" firstAttribute="top" secondItem="LYs-yQ-V1z" secondAttribute="top" constant="10" id="2cK-l2-pND"/>
+                <constraint firstAttribute="bottom" secondItem="2MR-Xd-U5N" secondAttribute="bottom" id="8aa-XZ-PQP"/>
+                <constraint firstItem="LYs-yQ-V1z" firstAttribute="trailing" secondItem="fOZ-mg-XzN" secondAttribute="trailing" constant="20" id="E1Q-GJ-0ml"/>
+                <constraint firstItem="npz-lY-zsQ" firstAttribute="leading" secondItem="LYs-yQ-V1z" secondAttribute="leading" constant="20" id="YWg-cq-KWd"/>
+                <constraint firstItem="2MR-Xd-U5N" firstAttribute="top" secondItem="LYs-yQ-V1z" secondAttribute="top" constant="10" id="gl1-ZU-Lvy"/>
+                <constraint firstItem="T0R-u4-3ZB" firstAttribute="leading" secondItem="LYs-yQ-V1z" secondAttribute="leading" id="hWh-Ja-VNZ"/>
+                <constraint firstItem="fOZ-mg-XzN" firstAttribute="leading" secondItem="npz-lY-zsQ" secondAttribute="trailing" constant="20" id="iTd-5B-VRb"/>
+                <constraint firstItem="2MR-Xd-U5N" firstAttribute="leading" secondItem="LYs-yQ-V1z" secondAttribute="leading" id="kTU-KD-Lft"/>
+                <constraint firstItem="T0R-u4-3ZB" firstAttribute="trailing" secondItem="LYs-yQ-V1z" secondAttribute="trailing" id="sIb-td-9yz"/>
+                <constraint firstItem="LYs-yQ-V1z" firstAttribute="bottom" secondItem="npz-lY-zsQ" secondAttribute="bottom" constant="30" id="u6i-4V-2vB"/>
+                <constraint firstItem="fOZ-mg-XzN" firstAttribute="centerY" secondItem="npz-lY-zsQ" secondAttribute="centerY" id="u7P-kS-kaT"/>
+                <constraint firstItem="LYs-yQ-V1z" firstAttribute="trailing" secondItem="2MR-Xd-U5N" secondAttribute="trailing" id="vGl-cK-NsR"/>
+                <constraint firstItem="T0R-u4-3ZB" firstAttribute="bottom" secondItem="2MR-Xd-U5N" secondAttribute="bottom" id="yDK-Pc-hm6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="16.666666666666668" y="81.696428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

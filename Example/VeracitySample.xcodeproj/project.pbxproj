@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473575EE2663E2F100742765 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473575ED2663E2F100742765 /* UIAlertControllerExtensions.swift */; };
+		475101E5265D3D71009FA906 /* ProtectItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B2265D3D71009FA906 /* ProtectItemViewController.swift */; };
+		475101E6265D3D71009FA906 /* TakeOverviewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B4265D3D71009FA906 /* TakeOverviewPhotoViewController.swift */; };
+		475101E7265D3D71009FA906 /* TakeOverviewPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101B5265D3D71009FA906 /* TakeOverviewPhotoViewController.xib */; };
+		475101E8265D3D71009FA906 /* TakeOverviewPhotoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B6265D3D71009FA906 /* TakeOverviewPhotoInteractor.swift */; };
+		475101E9265D3D71009FA906 /* ProtectItemStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B7265D3D71009FA906 /* ProtectItemStream.swift */; };
+		475101EB265D3D71009FA906 /* ProtectItemStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B9265D3D71009FA906 /* ProtectItemStep.swift */; };
+		475101EC265D3D71009FA906 /* CreateItemHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101BB265D3D71009FA906 /* CreateItemHeaderView.xib */; };
+		475101ED265D3D71009FA906 /* CreateItemHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101BC265D3D71009FA906 /* CreateItemHeaderView.swift */; };
+		475101EE265D3D71009FA906 /* TakeFingerprintInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101BE265D3D71009FA906 /* TakeFingerprintInteractor.swift */; };
+		475101F1265D3D71009FA906 /* FingerprintConfirmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101C2265D3D71009FA906 /* FingerprintConfirmView.xib */; };
+		475101F2265D3D71009FA906 /* FingerprintConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101C3265D3D71009FA906 /* FingerprintConfirmView.swift */; };
+		475101F3265D3D71009FA906 /* TakeFingerprintNormalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101C5265D3D71009FA906 /* TakeFingerprintNormalView.xib */; };
+		475101F4265D3D71009FA906 /* TakeFingerprintNormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101C6265D3D71009FA906 /* TakeFingerprintNormalView.swift */; };
+		475101F5265D3D71009FA906 /* TakeFingerprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101C7265D3D71009FA906 /* TakeFingerprintViewController.swift */; };
+		475101F6265D3D71009FA906 /* TakeFingerprintARView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101C9265D3D71009FA906 /* TakeFingerprintARView.xib */; };
+		475101F7265D3D71009FA906 /* TakeFingerprintARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101CA265D3D71009FA906 /* TakeFingerprintARView.swift */; };
+		475101F8265D3D71009FA906 /* TakeFingerprintViewController+ARMAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101CB265D3D71009FA906 /* TakeFingerprintViewController+ARMAP.swift */; };
+		475101FB265D3D71009FA906 /* TakeFingerprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101CF265D3D71009FA906 /* TakeFingerprintViewController.xib */; };
+		475101FC265D3D71009FA906 /* ProtectItemStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101D0265D3D71009FA906 /* ProtectItemStatus.swift */; };
+		475101FD265D3D71009FA906 /* CropBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101D2265D3D71009FA906 /* CropBackgroundViewController.swift */; };
+		475101FE265D3D71009FA906 /* CropBackgroundInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101D3265D3D71009FA906 /* CropBackgroundInteractor.swift */; };
+		475101FF265D3D71009FA906 /* CropConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101D5265D3D71009FA906 /* CropConfirmView.swift */; };
+		47510200265D3D71009FA906 /* CropConfirmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101D6265D3D71009FA906 /* CropConfirmView.xib */; };
+		47510201265D3D71009FA906 /* CropBackgroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101D7265D3D71009FA906 /* CropBackgroundViewController.xib */; };
+		47510204265D3D71009FA906 /* ProtectItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101DB265D3D71009FA906 /* ProtectItemHelper.swift */; };
+		47510205265D3D71009FA906 /* SetDimensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101DD265D3D71009FA906 /* SetDimensionViewController.swift */; };
+		47510206265D3D71009FA906 /* SetDimensionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101DE265D3D71009FA906 /* SetDimensionInteractor.swift */; };
+		47510207265D3D71009FA906 /* SetDimensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101DF265D3D71009FA906 /* SetDimensionViewController.xib */; };
+		47510209265D3D71009FA906 /* ProtectItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101E1265D3D71009FA906 /* ProtectItemViewController.xib */; };
+		4792CC15266BB4D400A28CF9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792CC14266BB4D400A28CF9 /* UIView+Extension.swift */; };
+		4797EA6F265C128900614B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797EA6E265C128900614B11 /* AppDelegate.swift */; };
+		4797EA71265C128900614B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797EA70265C128900614B11 /* SceneDelegate.swift */; };
+		4797EA73265C128900614B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797EA72265C128900614B11 /* ViewController.swift */; };
+		4797EA76265C128900614B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797EA74265C128900614B11 /* Main.storyboard */; };
+		4797EA78265C128E00614B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4797EA77265C128E00614B11 /* Assets.xcassets */; };
+		4797EA7B265C128E00614B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797EA79265C128E00614B11 /* LaunchScreen.storyboard */; };
+		6D6BBD100549F58D17FF6596 /* Pods_VeracitySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1984875E7534E5C7C8E204A8 /* Pods_VeracitySample.framework */; };
+		EA02003926649EF500D15DC7 /* ProtectItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02002926649EF500D15DC7 /* ProtectItemDetailViewController.swift */; };
+		EA02004026649EF500D15DC7 /* ProtectItemInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02003526649EF500D15DC7 /* ProtectItemInfoView.xib */; };
+		EA02004126649EF500D15DC7 /* ProtectItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02003626649EF500D15DC7 /* ProtectItemInfoView.swift */; };
+		EA02004226649EF500D15DC7 /* ProtectItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02003726649EF500D15DC7 /* ProtectItemDetailViewController.xib */; };
+		EA02004326649EF500D15DC7 /* ProtectItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02003826649EF500D15DC7 /* ProtectItemDetailInteractor.swift */; };
+		EA750E552665DC4400374D87 /* VerifyItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA750E4F2665DC4400374D87 /* VerifyItemDetailViewController.swift */; };
+		EA750E562665DC4400374D87 /* VerifyItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA750E512665DC4400374D87 /* VerifyItemInfoView.swift */; };
+		EA750E572665DC4400374D87 /* VerifyItemInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA750E522665DC4400374D87 /* VerifyItemInfoView.xib */; };
+		EA750E582665DC4400374D87 /* VerifyItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA750E532665DC4400374D87 /* VerifyItemDetailInteractor.swift */; };
+		EA750E592665DC4400374D87 /* VerifyItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA750E542665DC4400374D87 /* VerifyItemDetailViewController.xib */; };
+		EA92C7EA2660D44900AFC949 /* VerifyItemStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C7E92660D44900AFC949 /* VerifyItemStream.swift */; };
+		EA92C9422660DADD00AFC949 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C93F2660DADD00AFC949 /* Indicator.swift */; };
+		EA92C9672660DD2300AFC949 /* DynamicImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C9602660DD1F00AFC949 /* DynamicImageView.swift */; };
+		EA92C96B2660DD2300AFC949 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C9642660DD2300AFC949 /* AppButton.swift */; };
+		EA92C9742660DFF700AFC949 /* KeyboardAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C9722660DFF600AFC949 /* KeyboardAnimationProtocol.swift */; };
+		EA92C9752660DFF700AFC949 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C9732660DFF700AFC949 /* KeyboardInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4792CC38266BB69800A28CF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1984875E7534E5C7C8E204A8 /* Pods_VeracitySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeracitySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D930592F66760F9798B6B19 /* Pods-VeracitySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeracitySample.debug.xcconfig"; path = "Target Support Files/Pods-VeracitySample/Pods-VeracitySample.debug.xcconfig"; sourceTree = "<group>"; };
+		473575ED2663E2F100742765 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
+		475101B2265D3D71009FA906 /* ProtectItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemViewController.swift; sourceTree = "<group>"; };
+		475101B4265D3D71009FA906 /* TakeOverviewPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOverviewPhotoViewController.swift; sourceTree = "<group>"; };
+		475101B5265D3D71009FA906 /* TakeOverviewPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeOverviewPhotoViewController.xib; sourceTree = "<group>"; };
+		475101B6265D3D71009FA906 /* TakeOverviewPhotoInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOverviewPhotoInteractor.swift; sourceTree = "<group>"; };
+		475101B7265D3D71009FA906 /* ProtectItemStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemStream.swift; sourceTree = "<group>"; };
+		475101B9265D3D71009FA906 /* ProtectItemStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemStep.swift; sourceTree = "<group>"; };
+		475101BB265D3D71009FA906 /* CreateItemHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateItemHeaderView.xib; sourceTree = "<group>"; };
+		475101BC265D3D71009FA906 /* CreateItemHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateItemHeaderView.swift; sourceTree = "<group>"; };
+		475101BE265D3D71009FA906 /* TakeFingerprintInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeFingerprintInteractor.swift; sourceTree = "<group>"; };
+		475101C2265D3D71009FA906 /* FingerprintConfirmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FingerprintConfirmView.xib; sourceTree = "<group>"; };
+		475101C3265D3D71009FA906 /* FingerprintConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FingerprintConfirmView.swift; sourceTree = "<group>"; };
+		475101C5265D3D71009FA906 /* TakeFingerprintNormalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeFingerprintNormalView.xib; sourceTree = "<group>"; };
+		475101C6265D3D71009FA906 /* TakeFingerprintNormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeFingerprintNormalView.swift; sourceTree = "<group>"; };
+		475101C7265D3D71009FA906 /* TakeFingerprintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeFingerprintViewController.swift; sourceTree = "<group>"; };
+		475101C9265D3D71009FA906 /* TakeFingerprintARView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeFingerprintARView.xib; sourceTree = "<group>"; };
+		475101CA265D3D71009FA906 /* TakeFingerprintARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeFingerprintARView.swift; sourceTree = "<group>"; };
+		475101CB265D3D71009FA906 /* TakeFingerprintViewController+ARMAP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TakeFingerprintViewController+ARMAP.swift"; sourceTree = "<group>"; };
+		475101CF265D3D71009FA906 /* TakeFingerprintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeFingerprintViewController.xib; sourceTree = "<group>"; };
+		475101D0265D3D71009FA906 /* ProtectItemStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemStatus.swift; sourceTree = "<group>"; };
+		475101D2265D3D71009FA906 /* CropBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropBackgroundViewController.swift; sourceTree = "<group>"; };
+		475101D3265D3D71009FA906 /* CropBackgroundInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropBackgroundInteractor.swift; sourceTree = "<group>"; };
+		475101D5265D3D71009FA906 /* CropConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropConfirmView.swift; sourceTree = "<group>"; };
+		475101D6265D3D71009FA906 /* CropConfirmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CropConfirmView.xib; sourceTree = "<group>"; };
+		475101D7265D3D71009FA906 /* CropBackgroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CropBackgroundViewController.xib; sourceTree = "<group>"; };
+		475101DB265D3D71009FA906 /* ProtectItemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemHelper.swift; sourceTree = "<group>"; };
+		475101DD265D3D71009FA906 /* SetDimensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetDimensionViewController.swift; sourceTree = "<group>"; };
+		475101DE265D3D71009FA906 /* SetDimensionInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetDimensionInteractor.swift; sourceTree = "<group>"; };
+		475101DF265D3D71009FA906 /* SetDimensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetDimensionViewController.xib; sourceTree = "<group>"; };
+		475101E1265D3D71009FA906 /* ProtectItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtectItemViewController.xib; sourceTree = "<group>"; };
+		4792CC14266BB4D400A28CF9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4797EA6B265C128900614B11 /* VeracitySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeracitySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4797EA6E265C128900614B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4797EA70265C128900614B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4797EA72265C128900614B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4797EA75265C128900614B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4797EA77265C128E00614B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4797EA7A265C128E00614B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4797EA7C265C128E00614B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E593A0FF653FC9A61415CBA /* Pods-VeracitySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeracitySample.release.xcconfig"; path = "Target Support Files/Pods-VeracitySample/Pods-VeracitySample.release.xcconfig"; sourceTree = "<group>"; };
+		EA02002926649EF500D15DC7 /* ProtectItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemDetailViewController.swift; sourceTree = "<group>"; };
+		EA02003526649EF500D15DC7 /* ProtectItemInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtectItemInfoView.xib; sourceTree = "<group>"; };
+		EA02003626649EF500D15DC7 /* ProtectItemInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemInfoView.swift; sourceTree = "<group>"; };
+		EA02003726649EF500D15DC7 /* ProtectItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtectItemDetailViewController.xib; sourceTree = "<group>"; };
+		EA02003826649EF500D15DC7 /* ProtectItemDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemDetailInteractor.swift; sourceTree = "<group>"; };
+		EA750E4F2665DC4400374D87 /* VerifyItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyItemDetailViewController.swift; sourceTree = "<group>"; };
+		EA750E512665DC4400374D87 /* VerifyItemInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyItemInfoView.swift; sourceTree = "<group>"; };
+		EA750E522665DC4400374D87 /* VerifyItemInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyItemInfoView.xib; sourceTree = "<group>"; };
+		EA750E532665DC4400374D87 /* VerifyItemDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyItemDetailInteractor.swift; sourceTree = "<group>"; };
+		EA750E542665DC4400374D87 /* VerifyItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyItemDetailViewController.xib; sourceTree = "<group>"; };
+		EA92C7E92660D44900AFC949 /* VerifyItemStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyItemStream.swift; sourceTree = "<group>"; };
+		EA92C93F2660DADD00AFC949 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		EA92C9602660DD1F00AFC949 /* DynamicImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicImageView.swift; sourceTree = "<group>"; };
+		EA92C9642660DD2300AFC949 /* AppButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		EA92C9722660DFF600AFC949 /* KeyboardAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAnimationProtocol.swift; sourceTree = "<group>"; };
+		EA92C9732660DFF700AFC949 /* KeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4797EA68265C128900614B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6BBD100549F58D17FF6596 /* Pods_VeracitySample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475101B1265D3D71009FA906 /* ProtectItem */ = {
+			isa = PBXGroup;
+			children = (
+				475101DB265D3D71009FA906 /* ProtectItemHelper.swift */,
+				475101D0265D3D71009FA906 /* ProtectItemStatus.swift */,
+				475101B9265D3D71009FA906 /* ProtectItemStep.swift */,
+				475101B7265D3D71009FA906 /* ProtectItemStream.swift */,
+				475101B2265D3D71009FA906 /* ProtectItemViewController.swift */,
+				475101E1265D3D71009FA906 /* ProtectItemViewController.xib */,
+				EA02002826649EF500D15DC7 /* ProtectItemDetail */,
+				475101D1265D3D71009FA906 /* CropBackground */,
+				475101BA265D3D71009FA906 /* HeaderView */,
+				475101DC265D3D71009FA906 /* SetDimension */,
+				475101BD265D3D71009FA906 /* TakeFingerprint */,
+				475101B3265D3D71009FA906 /* TakeOverview */,
+			);
+			path = ProtectItem;
+			sourceTree = "<group>";
+		};
+		475101B3265D3D71009FA906 /* TakeOverview */ = {
+			isa = PBXGroup;
+			children = (
+				475101B4265D3D71009FA906 /* TakeOverviewPhotoViewController.swift */,
+				475101B5265D3D71009FA906 /* TakeOverviewPhotoViewController.xib */,
+				475101B6265D3D71009FA906 /* TakeOverviewPhotoInteractor.swift */,
+			);
+			path = TakeOverview;
+			sourceTree = "<group>";
+		};
+		475101BA265D3D71009FA906 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				475101BB265D3D71009FA906 /* CreateItemHeaderView.xib */,
+				475101BC265D3D71009FA906 /* CreateItemHeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		475101BD265D3D71009FA906 /* TakeFingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				475101BE265D3D71009FA906 /* TakeFingerprintInteractor.swift */,
+				475101C7265D3D71009FA906 /* TakeFingerprintViewController.swift */,
+				475101CB265D3D71009FA906 /* TakeFingerprintViewController+ARMAP.swift */,
+				475101CF265D3D71009FA906 /* TakeFingerprintViewController.xib */,
+				475101C8265D3D71009FA906 /* AR */,
+				475101C0265D3D71009FA906 /* Confirm */,
+				475101C4265D3D71009FA906 /* MAP */,
+			);
+			path = TakeFingerprint;
+			sourceTree = "<group>";
+		};
+		475101C0265D3D71009FA906 /* Confirm */ = {
+			isa = PBXGroup;
+			children = (
+				475101C2265D3D71009FA906 /* FingerprintConfirmView.xib */,
+				475101C3265D3D71009FA906 /* FingerprintConfirmView.swift */,
+			);
+			path = Confirm;
+			sourceTree = "<group>";
+		};
+		475101C4265D3D71009FA906 /* MAP */ = {
+			isa = PBXGroup;
+			children = (
+				475101C5265D3D71009FA906 /* TakeFingerprintNormalView.xib */,
+				475101C6265D3D71009FA906 /* TakeFingerprintNormalView.swift */,
+			);
+			path = MAP;
+			sourceTree = "<group>";
+		};
+		475101C8265D3D71009FA906 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				475101C9265D3D71009FA906 /* TakeFingerprintARView.xib */,
+				475101CA265D3D71009FA906 /* TakeFingerprintARView.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		475101D1265D3D71009FA906 /* CropBackground */ = {
+			isa = PBXGroup;
+			children = (
+				475101D2265D3D71009FA906 /* CropBackgroundViewController.swift */,
+				475101D3265D3D71009FA906 /* CropBackgroundInteractor.swift */,
+				475101D7265D3D71009FA906 /* CropBackgroundViewController.xib */,
+				475101D4265D3D71009FA906 /* CropConfirm */,
+			);
+			path = CropBackground;
+			sourceTree = "<group>";
+		};
+		475101D4265D3D71009FA906 /* CropConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				475101D5265D3D71009FA906 /* CropConfirmView.swift */,
+				475101D6265D3D71009FA906 /* CropConfirmView.xib */,
+			);
+			path = CropConfirm;
+			sourceTree = "<group>";
+		};
+		475101DC265D3D71009FA906 /* SetDimension */ = {
+			isa = PBXGroup;
+			children = (
+				475101DD265D3D71009FA906 /* SetDimensionViewController.swift */,
+				475101DE265D3D71009FA906 /* SetDimensionInteractor.swift */,
+				475101DF265D3D71009FA906 /* SetDimensionViewController.xib */,
+			);
+			path = SetDimension;
+			sourceTree = "<group>";
+		};
+		4797EA62265C128900614B11 = {
+			isa = PBXGroup;
+			children = (
+				4797EA6D265C128900614B11 /* VeracitySample */,
+				4797EA6C265C128900614B11 /* Products */,
+				9398A073DF0E38805550029D /* Pods */,
+				E3194E0FC5FA32151E9F551B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4797EA6C265C128900614B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4797EA6B265C128900614B11 /* VeracitySample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4797EA6D265C128900614B11 /* VeracitySample */ = {
+			isa = PBXGroup;
+			children = (
+				4797EA7C265C128E00614B11 /* Info.plist */,
+				4797EA6E265C128900614B11 /* AppDelegate.swift */,
+				4797EA70265C128900614B11 /* SceneDelegate.swift */,
+				4797EA72265C128900614B11 /* ViewController.swift */,
+				4797EA77265C128E00614B11 /* Assets.xcassets */,
+				4797EA79265C128E00614B11 /* LaunchScreen.storyboard */,
+				4797EA74265C128900614B11 /* Main.storyboard */,
+				EA750E4E2665DC4400374D87 /* VerifyItemDetail */,
+				475101B1265D3D71009FA906 /* ProtectItem */,
+				EA92C95C2660DD0F00AFC949 /* Views */,
+			);
+			path = VeracitySample;
+			sourceTree = "<group>";
+		};
+		9398A073DF0E38805550029D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D930592F66760F9798B6B19 /* Pods-VeracitySample.debug.xcconfig */,
+				7E593A0FF653FC9A61415CBA /* Pods-VeracitySample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3194E0FC5FA32151E9F551B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1984875E7534E5C7C8E204A8 /* Pods_VeracitySample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA02002826649EF500D15DC7 /* ProtectItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EA02003826649EF500D15DC7 /* ProtectItemDetailInteractor.swift */,
+				EA02002926649EF500D15DC7 /* ProtectItemDetailViewController.swift */,
+				EA02003726649EF500D15DC7 /* ProtectItemDetailViewController.xib */,
+				EA02003426649EF500D15DC7 /* InfoView */,
+			);
+			path = ProtectItemDetail;
+			sourceTree = "<group>";
+		};
+		EA02003426649EF500D15DC7 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				EA02003526649EF500D15DC7 /* ProtectItemInfoView.xib */,
+				EA02003626649EF500D15DC7 /* ProtectItemInfoView.swift */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		EA750E4E2665DC4400374D87 /* VerifyItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EA92C7E92660D44900AFC949 /* VerifyItemStream.swift */,
+				EA750E532665DC4400374D87 /* VerifyItemDetailInteractor.swift */,
+				EA750E4F2665DC4400374D87 /* VerifyItemDetailViewController.swift */,
+				EA750E542665DC4400374D87 /* VerifyItemDetailViewController.xib */,
+				EA750E502665DC4400374D87 /* InfoView */,
+			);
+			path = VerifyItemDetail;
+			sourceTree = "<group>";
+		};
+		EA750E502665DC4400374D87 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				EA750E512665DC4400374D87 /* VerifyItemInfoView.swift */,
+				EA750E522665DC4400374D87 /* VerifyItemInfoView.xib */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		EA92C95C2660DD0F00AFC949 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA92C9722660DFF600AFC949 /* KeyboardAnimationProtocol.swift */,
+				EA92C9732660DFF700AFC949 /* KeyboardInfo.swift */,
+				EA92C9642660DD2300AFC949 /* AppButton.swift */,
+				473575ED2663E2F100742765 /* UIAlertControllerExtensions.swift */,
+				4792CC14266BB4D400A28CF9 /* UIView+Extension.swift */,
+				EA92C9602660DD1F00AFC949 /* DynamicImageView.swift */,
+				EA92C93F2660DADD00AFC949 /* Indicator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4797EA6A265C128900614B11 /* VeracitySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4797EA7F265C128E00614B11 /* Build configuration list for PBXNativeTarget "VeracitySample" */;
+			buildPhases = (
+				398ACEA7CCC7C1516CA8D9FD /* [CP] Check Pods Manifest.lock */,
+				4797EA67265C128900614B11 /* Sources */,
+				4797EA68265C128900614B11 /* Frameworks */,
+				4797EA69265C128900614B11 /* Resources */,
+				4792CC38266BB69800A28CF9 /* Embed Frameworks */,
+				85B195A93D71F3BB93905C81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeracitySample;
+			productName = VeracitySample;
+			productReference = 4797EA6B265C128900614B11 /* VeracitySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4797EA63265C128900614B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4797EA6A265C128900614B11 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 4797EA66265C128900614B11 /* Build configuration list for PBXProject "VeracitySample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4797EA62265C128900614B11;
+			productRefGroup = 4797EA6C265C128900614B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4797EA6A265C128900614B11 /* VeracitySample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4797EA69265C128900614B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475101F1265D3D71009FA906 /* FingerprintConfirmView.xib in Resources */,
+				4797EA7B265C128E00614B11 /* LaunchScreen.storyboard in Resources */,
+				47510200265D3D71009FA906 /* CropConfirmView.xib in Resources */,
+				47510201265D3D71009FA906 /* CropBackgroundViewController.xib in Resources */,
+				475101E7265D3D71009FA906 /* TakeOverviewPhotoViewController.xib in Resources */,
+				EA750E592665DC4400374D87 /* VerifyItemDetailViewController.xib in Resources */,
+				EA750E572665DC4400374D87 /* VerifyItemInfoView.xib in Resources */,
+				47510209265D3D71009FA906 /* ProtectItemViewController.xib in Resources */,
+				475101EC265D3D71009FA906 /* CreateItemHeaderView.xib in Resources */,
+				EA02004026649EF500D15DC7 /* ProtectItemInfoView.xib in Resources */,
+				4797EA78265C128E00614B11 /* Assets.xcassets in Resources */,
+				475101F6265D3D71009FA906 /* TakeFingerprintARView.xib in Resources */,
+				475101F3265D3D71009FA906 /* TakeFingerprintNormalView.xib in Resources */,
+				475101FB265D3D71009FA906 /* TakeFingerprintViewController.xib in Resources */,
+				47510207265D3D71009FA906 /* SetDimensionViewController.xib in Resources */,
+				EA02004226649EF500D15DC7 /* ProtectItemDetailViewController.xib in Resources */,
+				4797EA76265C128900614B11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		398ACEA7CCC7C1516CA8D9FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeracitySample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B195A93D71F3BB93905C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4797EA67265C128900614B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475101FC265D3D71009FA906 /* ProtectItemStatus.swift in Sources */,
+				475101FD265D3D71009FA906 /* CropBackgroundViewController.swift in Sources */,
+				473575EE2663E2F100742765 /* UIAlertControllerExtensions.swift in Sources */,
+				EA02004126649EF500D15DC7 /* ProtectItemInfoView.swift in Sources */,
+				EA750E562665DC4400374D87 /* VerifyItemInfoView.swift in Sources */,
+				EA92C96B2660DD2300AFC949 /* AppButton.swift in Sources */,
+				475101E9265D3D71009FA906 /* ProtectItemStream.swift in Sources */,
+				47510206265D3D71009FA906 /* SetDimensionInteractor.swift in Sources */,
+				EA750E582665DC4400374D87 /* VerifyItemDetailInteractor.swift in Sources */,
+				475101EE265D3D71009FA906 /* TakeFingerprintInteractor.swift in Sources */,
+				4797EA73265C128900614B11 /* ViewController.swift in Sources */,
+				475101FF265D3D71009FA906 /* CropConfirmView.swift in Sources */,
+				EA92C9752660DFF700AFC949 /* KeyboardInfo.swift in Sources */,
+				EA02004326649EF500D15DC7 /* ProtectItemDetailInteractor.swift in Sources */,
+				475101EB265D3D71009FA906 /* ProtectItemStep.swift in Sources */,
+				475101F4265D3D71009FA906 /* TakeFingerprintNormalView.swift in Sources */,
+				EA750E552665DC4400374D87 /* VerifyItemDetailViewController.swift in Sources */,
+				EA92C9742660DFF700AFC949 /* KeyboardAnimationProtocol.swift in Sources */,
+				4797EA6F265C128900614B11 /* AppDelegate.swift in Sources */,
+				47510204265D3D71009FA906 /* ProtectItemHelper.swift in Sources */,
+				475101F7265D3D71009FA906 /* TakeFingerprintARView.swift in Sources */,
+				475101E6265D3D71009FA906 /* TakeOverviewPhotoViewController.swift in Sources */,
+				47510205265D3D71009FA906 /* SetDimensionViewController.swift in Sources */,
+				EA02003926649EF500D15DC7 /* ProtectItemDetailViewController.swift in Sources */,
+				475101F8265D3D71009FA906 /* TakeFingerprintViewController+ARMAP.swift in Sources */,
+				EA92C9672660DD2300AFC949 /* DynamicImageView.swift in Sources */,
+				475101ED265D3D71009FA906 /* CreateItemHeaderView.swift in Sources */,
+				475101F5265D3D71009FA906 /* TakeFingerprintViewController.swift in Sources */,
+				EA92C7EA2660D44900AFC949 /* VerifyItemStream.swift in Sources */,
+				4792CC15266BB4D400A28CF9 /* UIView+Extension.swift in Sources */,
+				4797EA71265C128900614B11 /* SceneDelegate.swift in Sources */,
+				475101F2265D3D71009FA906 /* FingerprintConfirmView.swift in Sources */,
+				475101E5265D3D71009FA906 /* ProtectItemViewController.swift in Sources */,
+				EA92C9422660DADD00AFC949 /* Indicator.swift in Sources */,
+				475101E8265D3D71009FA906 /* TakeOverviewPhotoInteractor.swift in Sources */,
+				475101FE265D3D71009FA906 /* CropBackgroundInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4797EA74265C128900614B11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4797EA75265C128900614B11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4797EA79265C128E00614B11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4797EA7A265C128E00614B11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4797EA7D265C128E00614B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4797EA7E265C128E00614B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4797EA80265C128E00614B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D930592F66760F9798B6B19 /* Pods-VeracitySample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ98RJTDMQ;
+				INFOPLIST_FILE = VeracitySample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.VeracitySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4797EA81265C128E00614B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E593A0FF653FC9A61415CBA /* Pods-VeracitySample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ98RJTDMQ;
+				INFOPLIST_FILE = VeracitySample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.VeracitySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4797EA66265C128900614B11 /* Build configuration list for PBXProject "VeracitySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4797EA7D265C128E00614B11 /* Debug */,
+				4797EA7E265C128E00614B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4797EA7F265C128E00614B11 /* Build configuration list for PBXNativeTarget "VeracitySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4797EA80265C128E00614B11 /* Debug */,
+				4797EA81265C128E00614B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4797EA63265C128900614B11 /* Project object */;
+}

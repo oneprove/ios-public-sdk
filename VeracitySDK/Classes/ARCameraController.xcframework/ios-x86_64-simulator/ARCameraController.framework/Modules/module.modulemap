@@ -1,0 +1,11 @@
+framework module ARCameraController {
+  umbrella header "ARCameraController.h"
+
+  export *
+  module * { export * }
+}
+
+module ARCameraController.Swift {
+    header "ARCameraController-Swift.h"
+    requires objc
+}

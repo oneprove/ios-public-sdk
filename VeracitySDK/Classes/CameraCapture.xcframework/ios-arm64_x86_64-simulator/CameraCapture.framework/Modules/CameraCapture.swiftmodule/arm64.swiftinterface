@@ -1,0 +1,102 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CameraCapture
+import AVFoundation
+@_exported import CameraCapture
+import CoreVideo
+import Swift
+import UIKit
+import VideoToolbox
+import os.log
+import os
+public struct DeviceModel {
+  public var type: Swift.String
+  public var major: Swift.Int
+  public var minor: Swift.Int
+}
+extension UIDevice {
+  public var model: CameraCapture.DeviceModel? {
+    get
+  }
+}
+public protocol CameraCaptureDelegate : AnyObject {
+  func cameraCapture(_ capture: CameraCapture.CameraCapture, didCaptureVideoFrame frame: CoreMedia.CMSampleBuffer)
+  func cameraCapture(_ capture: CameraCapture.CameraCapture, didCapturePhoto photo: CoreVideo.CVPixelBuffer?, error: Swift.Error?)
+}
+public protocol CameraCaptureSystemPressureDelegate : AnyObject {
+  func cameraCapture(_ capture: CameraCapture.CameraCapture, torchAvailabilityDidChange isTorchAvailable: Swift.Bool)
+  func cameraCapture(_ capture: CameraCapture.CameraCapture, systemPressureDidChange systemPressureState: AVFoundation.AVCaptureDevice.SystemPressureState)
+  func cameraCapture(_ capture: CameraCapture.CameraCapture, captureSessionInterruptionDidChange isInterrupted: Swift.Bool, interruptionReason: AVFoundation.AVCaptureSession.InterruptionReason?)
+}
+public struct CameraCaptureConfiguration {
+  public init()
+  public init(device: AVFoundation.AVCaptureDevice? = nil, previewQuality: AVFoundation.AVCaptureSession.Preset)
+  public init(device: AVFoundation.AVCaptureDevice? = nil, maxHRSI: Swift.Bool, videoHeightRange: Swift.CountableClosedRange<Swift.Int>, aspectRatio43: Swift.Bool, preferredFrameRate: Swift.Int, autoFocusRangeRestriction: AVFoundation.AVCaptureDevice.AutoFocusRangeRestriction)
+  public init(device: AVFoundation.AVCaptureDevice? = nil, maxHRSI: Swift.Bool, previewQuality: AVFoundation.AVCaptureSession.Preset, aspectRatio43: Swift.Bool, preferredFrameRate: Swift.Int, autoFocusRangeRestriction: AVFoundation.AVCaptureDevice.AutoFocusRangeRestriction)
+  public static func availableDevices(position: AVFoundation.AVCaptureDevice.Position) -> [AVFoundation.AVCaptureDevice]?
+  public static func defaultDevice() -> (AVFoundation.AVCaptureDevice?, CoreGraphics.CGFloat)
+}
+@objc @_inheritsConvenienceInitializers public class CameraCapture : ObjectiveC.NSObject {
+  public var isAdjustingFocus: Swift.Bool
+  public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer?
+  weak public var delegate: CameraCapture.CameraCaptureDelegate?
+  weak public var systemPressureDelegate: CameraCapture.CameraCaptureSystemPressureDelegate?
+  public var frameDimensions: CoreMedia.CMVideoDimensions {
+    get
+  }
+  public var isRunning: Swift.Bool {
+    get
+  }
+  @objc deinit
+  public func configure(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func configure(configuration: CameraCapture.CameraCaptureConfiguration, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func start()
+  public func stop()
+  public func capturePhoto()
+  public func capturePhoto(focusPointOfInterest: CoreGraphics.CGPoint)
+  public func expose(atPointOfInterest point: CoreGraphics.CGPoint)
+  public func focus(atPointOfInterest point: CoreGraphics.CGPoint)
+  @objc override dynamic public init()
+}
+extension CameraCapture : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didDrop sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+extension CameraCapture : AVFoundation.AVCapturePhotoCaptureDelegate {
+  @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+}
+extension CameraCapture {
+  public static func convert(pixelBuffer: CoreVideo.CVPixelBuffer, orientation: ImageIO.CGImagePropertyOrientation = .right) -> UIKit.UIImage?
+  public static func convert(sampleBuffer: CoreMedia.CMSampleBuffer) -> UIKit.UIImage?
+}
+extension CameraCapture {
+  public var isAdjustingCameraParameters: Swift.Bool {
+    get
+  }
+  public var isAdjustingExposure: Swift.Bool {
+    get
+  }
+  public var isAdjustingWhiteBalance: Swift.Bool {
+    get
+  }
+}
+extension CameraCapture {
+  public var isTorchAvailable: Swift.Bool {
+    get
+  }
+  public var hasTorch: Swift.Bool {
+    get
+  }
+  public var isTorchActive: Swift.Bool {
+    get
+  }
+  public var torchMode: AVFoundation.AVCaptureDevice.TorchMode {
+    get
+    set
+  }
+  public var torchLevel: Swift.Float {
+    get
+  }
+  public func setTorchModeOn(level: Swift.Float)
+  public func toggleTorch(level: Swift.Float = AVCaptureDevice.maxAvailableTorchLevel) -> Swift.Bool
+}

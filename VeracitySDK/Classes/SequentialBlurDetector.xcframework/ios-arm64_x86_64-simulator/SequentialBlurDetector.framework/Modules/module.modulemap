@@ -1,0 +1,11 @@
+framework module SequentialBlurDetector {
+  umbrella header "SequentialBlurDetector.h"
+
+  export *
+  module * { export * }
+}
+
+module SequentialBlurDetector.Swift {
+    header "SequentialBlurDetector-Swift.h"
+    requires objc
+}

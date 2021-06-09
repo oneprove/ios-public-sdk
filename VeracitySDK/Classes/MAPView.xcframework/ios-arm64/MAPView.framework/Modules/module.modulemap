@@ -1,0 +1,11 @@
+framework module MAPView {
+  umbrella header "MAPView.h"
+
+  export *
+  module * { export * }
+}
+
+module MAPView.Swift {
+    header "MAPView-Swift.h"
+    requires objc
+}
