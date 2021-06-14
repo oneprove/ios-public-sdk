@@ -2,16 +2,6 @@
 
 Veracity SDK covers almost all the heavy work for the Veracity Apps. It can provide, persist and upload data, make API requests, and more.
 
-## Example app usage 
-- Make sure to have cocoapods installed
-- Open terminal and cd into Example folder
-- Run `pod install` in terminal
-- Open `VeracitySample.xcworkspace`
-- Replace the empty credentials with the credentials provided byt Veracity Protocol in ViewController.swift on lines 35, 36
-- If you wish to run on real device you will need to change Signing Capabilities with your apple developer account
-- Run the project
-- On device allow your developer certificate if needed (Settings -> General -> Profiles & Device Management)
-
 ### Instalation
 ```
 pod 'VeracitySDK', :git => 'https://github.com/iamin-dev/ios-sdk-public.git', :tag => '0.2.0'
