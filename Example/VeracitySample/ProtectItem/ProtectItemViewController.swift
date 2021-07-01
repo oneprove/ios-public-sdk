@@ -99,7 +99,11 @@ final class ProtectItemViewController: UIViewController {
     // MARK: - Setup
     
     private func setupView() {
-        overrideUserInterfaceStyle = .light
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        } else {
+            // Fallback on earlier versions
+        }
         view.backgroundColor = AppColor.white
         titleView.backButton.addTarget(self, action: #selector(moveBack), for: .touchUpInside)
         titleView.closeButton.addTarget(self, action: #selector(closePress), for: .touchUpInside)

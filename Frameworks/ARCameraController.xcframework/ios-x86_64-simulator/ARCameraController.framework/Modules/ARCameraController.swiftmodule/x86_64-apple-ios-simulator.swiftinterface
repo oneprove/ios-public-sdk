@@ -1,0 +1,97 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ARCameraController
+@_exported import ARCameraController
+import AVFoundation
+import CameraCapture
+import CaptureScheduler
+import MLPatchExtractor
+@_exported import SequentialBlurDetector
+import Swift
+import UIKit
+import VideoToolbox
+import _Concurrency
+import os.log
+import os
+@_hasMissingDesignatedInitializers @objc public class DeviceModel : ObjectiveC.NSObject {
+  @objc public var type: Swift.String
+  @objc public var major: Swift.Int
+  @objc public var minor: Swift.Int
+  @objc deinit
+}
+@objc extension UIKit.UIDevice {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var deviceModel: ARCameraController.DeviceModel? {
+    @objc get
+  }
+}
+public enum ARCameraControllerState {
+  case ready
+  case initialization
+  case tracking
+  case lost
+  case capturing
+  case tooClose
+  case success
+  public static func == (a: ARCameraController.ARCameraControllerState, b: ARCameraController.ARCameraControllerState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ARInitializationStatus {
+  public var descriptor: ARCameraController.DescriptorStatus?
+}
+public struct ARCaptureConfiguration {
+  public var trialCaptures: Swift.Int
+  public var queryPhotos: Swift.Int
+  public var minInterleaveInterval: Foundation.TimeInterval
+  public var blurrinessMeasure: SequentialBlurDetector.BlurrinessMeasure
+  public init(trialCaptures: Swift.Int, queryPhotos: Swift.Int, minInterleaveInterval: Foundation.TimeInterval, blurrinessMeasure: SequentialBlurDetector.BlurrinessMeasure)
+}
+public protocol ARCameraControllerDelegate : AnyObject {
+  func cameraController(_ controller: ARCameraController.ARCameraController, stateDidChange state: ARCameraController.ARCameraControllerState)
+  func cameraController(_ controller: ARCameraController.ARCameraController, willCapturePhotoWithProgress progress: Foundation.Progress)
+  func cameraController(_ controller: ARCameraController.ARCameraController, didCapturePhoto photo: UIKit.UIImage, withProgress progress: Foundation.Progress)
+  func cameraController(_ controller: ARCameraController.ARCameraController, didFindBestPhotos photos: [SequentialBlurDetector.ImageBlurrinessResult])
+  func cameraController(_ controller: ARCameraController.ARCameraController, didLostAndNotRecoverFor interval: Foundation.TimeInterval)
+}
+public typealias FingerprintPreprocessingOperation = (UIKit.UIImage) -> UIKit.UIImage
+@objc public class ARCameraController : ObjectiveC.NSObject {
+  public static let defaultCaptureConfiguration: ARCameraController.ARCaptureConfiguration
+  weak public var delegate: ARCameraController.ARCameraControllerDelegate?
+  weak public var previewView: UIKit.UIImageView?
+  public var isRunning: Swift.Bool {
+    get
+  }
+  public init(overviewImage: UIKit.UIImage, fingerprintRect: CoreGraphics.CGRect, captureConfiguration: ARCameraController.ARCaptureConfiguration = defaultCaptureConfiguration, recoverTimeInterval: Swift.Double = 4.0, fingerprintPreprocessing: ARCameraController.FingerprintPreprocessingOperation? = nil, completion: @escaping ((ARCameraController.ARInitializationStatus) -> ()))
+  public func start()
+  public func stop()
+  public func reset()
+  @objc deinit
+}
+extension ARCameraController.ARCameraController : CameraCapture.CameraCaptureDelegate {
+  public func cameraCapture(_ capture: CameraCapture.CameraCapture, didCaptureVideoFrame sampleBuffer: CoreMedia.CMSampleBuffer)
+  public func cameraCapture(_ capture: CameraCapture.CameraCapture, didCapturePhoto pixelBuffer: CoreVideo.CVPixelBuffer?, error: Swift.Error?)
+}
+extension ARCameraController.ARCameraController : CaptureScheduler.CaptureSchedulerDelegate {
+  public func captureScheduler(_ scheduler: CaptureScheduler.CaptureScheduler, didInitiateCaptureWithProgress progress: Foundation.Progress)
+}
+extension ARCameraController.ARCameraController {
+  public var hasTorch: Swift.Bool {
+    get
+  }
+  public var isTorchActive: Swift.Bool {
+    get
+  }
+  public var torchMode: AVFoundation.AVCaptureDevice.TorchMode {
+    get
+    set
+  }
+  public var torchLevel: Swift.Float {
+    get
+  }
+  public func setTorchModeOn(level: Swift.Float)
+  public func toggleTorch(level: Swift.Float = AVCaptureDevice.maxAvailableTorchLevel) -> Swift.Bool
+}
+extension ARCameraController.ARCameraControllerState : Swift.Equatable {}
+extension ARCameraController.ARCameraControllerState : Swift.Hashable {}

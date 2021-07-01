@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MAPView
+import AVFoundation
+import CameraCapture
+import ImageIO
+@_exported import MAPView
+import Swift
+import UIKit
+import _Concurrency
+import os.log
+import os
+public typealias FingerprintPreprocessingOperation = (UIKit.UIImage) -> UIKit.UIImage
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MAPView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var minCameraPreviewAlpha: CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) public var maxCameraPreviewAlpha: CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) weak public var delegate: CameraCapture.CameraCaptureDelegate? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var isRunning: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func changeZoom(value: CoreGraphics.CGFloat)
+  @_Concurrency.MainActor(unsafe) public func locateFingerprint(overviewImage: UIKit.UIImage, fingerprintRect: CoreGraphics.CGRect, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func captureFingerprintPhoto()
+  @_Concurrency.MainActor(unsafe) public func start()
+  @_Concurrency.MainActor(unsafe) public func stop()
+  @objc deinit
+}
+extension MAPView.MAPView {
+  @_Concurrency.MainActor(unsafe) public var hasTorch: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var isTorchActive: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var torchMode: AVFoundation.AVCaptureDevice.TorchMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var torchLevel: Swift.Float {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func setTorchModeOn(level: Swift.Float)
+  @_Concurrency.MainActor(unsafe) public func toggleTorch(level: Swift.Float = AVCaptureDevice.maxAvailableTorchLevel) -> Swift.Bool
+}

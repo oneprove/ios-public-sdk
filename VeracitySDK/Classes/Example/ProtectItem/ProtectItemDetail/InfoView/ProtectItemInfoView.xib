@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NB Akademie Bold.ttf">
+            <string>NBAkademieBold</string>
+        </array>
+        <array key="NB Akademie Regular.ttf">
+            <string>NBAkademieRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProtectItemInfoView" customModule="VeracitySample" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="vtU-Ng-aqv"/>
+                <outlet property="dateLabel" destination="wyK-qJ-nsh" id="N60-Et-SvA"/>
+                <outlet property="dateView" destination="R4c-o4-qdE" id="rwP-04-dWi"/>
+                <outlet property="dimensionLabel" destination="kdk-eJ-jHs" id="oWM-Cn-WHT"/>
+                <outlet property="itemImageView" destination="iWh-UD-ns3" id="MPY-vE-eif"/>
+                <outlet property="messageDescLabel" destination="9Zq-Tv-ChC" id="BM6-ET-Mkr"/>
+                <outlet property="messageTitleLabel" destination="3vF-CI-jgh" id="hAp-je-MdJ"/>
+                <outlet property="messageView" destination="lsI-sx-pT1" id="d2A-Rv-PoG"/>
+                <outlet property="nameLabel" destination="tuf-HN-guL" id="lRV-lo-nys"/>
+                <outlet property="publicIDLabel" destination="SNY-2s-Ou1" id="qaT-JX-RUR"/>
+                <outlet property="publicIDView" destination="bKO-Fk-TTE" id="0y6-Ue-MB6"/>
+                <outlet property="stackView" destination="mih-WX-L5y" id="RK6-4t-Pmv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="638"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mih-WX-L5y">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="638"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsI-sx-pT1" userLabel="MessageView">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="152"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Wr-GU-E9l">
+                                    <rect key="frame" x="20" y="20" width="0.0" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" id="CAb-qc-B1b"/>
+                                        <constraint firstAttribute="height" constant="20" id="nJ6-aK-fIK"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vF-CI-jgh">
+                                    <rect key="frame" x="20" y="19.5" width="374" height="21.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zq-Tv-ChC">
+                                    <rect key="frame" x="20" y="46" width="374" height="88"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="LightRed"/>
+                            <constraints>
+                                <constraint firstItem="9Zq-Tv-ChC" firstAttribute="trailing" secondItem="3vF-CI-jgh" secondAttribute="trailing" id="54P-G7-l33"/>
+                                <constraint firstAttribute="trailing" secondItem="3vF-CI-jgh" secondAttribute="trailing" constant="20" id="6LD-vV-Xdm"/>
+                                <constraint firstItem="9Wr-GU-E9l" firstAttribute="leading" secondItem="lsI-sx-pT1" secondAttribute="leading" constant="20" id="6V3-Bg-hXq"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="NWv-pg-ABL"/>
+                                <constraint firstAttribute="bottom" secondItem="9Zq-Tv-ChC" secondAttribute="bottom" constant="18" id="Rl1-jV-zL2"/>
+                                <constraint firstItem="9Zq-Tv-ChC" firstAttribute="top" secondItem="3vF-CI-jgh" secondAttribute="bottom" constant="5" id="d7M-i0-6xT"/>
+                                <constraint firstItem="9Wr-GU-E9l" firstAttribute="top" secondItem="lsI-sx-pT1" secondAttribute="top" constant="20" id="ocO-pB-KBD"/>
+                                <constraint firstItem="3vF-CI-jgh" firstAttribute="leading" secondItem="9Wr-GU-E9l" secondAttribute="trailing" id="vOz-DD-yK8"/>
+                                <constraint firstItem="9Zq-Tv-ChC" firstAttribute="leading" secondItem="3vF-CI-jgh" secondAttribute="leading" id="wNv-d3-X6F"/>
+                                <constraint firstItem="3vF-CI-jgh" firstAttribute="centerY" secondItem="9Wr-GU-E9l" secondAttribute="centerY" id="xHa-2t-fa0"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZpA-ge-az5" userLabel="NameView">
+                            <rect key="frame" x="0.0" y="172" width="414" height="20"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuf-HN-guL" userLabel="name">
+                                    <rect key="frame" x="20" y="-4" width="59" height="28"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieBold" family="NB Akademie" pointSize="24"/>
+                                    <color key="textColor" name="Primary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="White"/>
+                            <constraints>
+                                <constraint firstItem="tuf-HN-guL" firstAttribute="centerY" secondItem="ZpA-ge-az5" secondAttribute="centerY" id="6Lq-Vn-smV"/>
+                                <constraint firstAttribute="height" constant="20" id="CqO-DG-eXK"/>
+                                <constraint firstItem="tuf-HN-guL" firstAttribute="leading" secondItem="ZpA-ge-az5" secondAttribute="leading" constant="20" id="nR0-cz-waF"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBY-fy-9Yi" userLabel="ImageView">
+                            <rect key="frame" x="0.0" y="212" width="414" height="250"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GaN-9z-uXH">
+                                    <rect key="frame" x="20" y="0.0" width="374" height="250"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iWh-UD-ns3">
+                                            <rect key="frame" x="20" y="16" width="334" height="218"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" name="Background"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="iWh-UD-ns3" secondAttribute="trailing" constant="20" id="Cjm-HF-G41"/>
+                                        <constraint firstItem="iWh-UD-ns3" firstAttribute="leading" secondItem="GaN-9z-uXH" secondAttribute="leading" constant="20" id="duG-FH-nDP"/>
+                                        <constraint firstAttribute="bottom" secondItem="iWh-UD-ns3" secondAttribute="bottom" constant="16" id="evL-Wg-9lH"/>
+                                        <constraint firstItem="iWh-UD-ns3" firstAttribute="top" secondItem="GaN-9z-uXH" secondAttribute="top" constant="16" id="fYP-Vb-cMD"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="4"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="GaN-9z-uXH" firstAttribute="top" secondItem="QBY-fy-9Yi" secondAttribute="top" id="JnO-DZ-lga"/>
+                                <constraint firstAttribute="bottom" secondItem="GaN-9z-uXH" secondAttribute="bottom" id="Swl-wb-DIU"/>
+                                <constraint firstAttribute="height" constant="250" id="keH-Jf-T93"/>
+                                <constraint firstAttribute="trailing" secondItem="GaN-9z-uXH" secondAttribute="trailing" constant="20" id="sye-3e-b7d"/>
+                                <constraint firstItem="GaN-9z-uXH" firstAttribute="leading" secondItem="QBY-fy-9Yi" secondAttribute="leading" constant="20" id="uNQ-LT-d91"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-n0-NIV" userLabel="Headler">
+                            <rect key="frame" x="0.0" y="482" width="414" height="24"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-le-MtW">
+                                    <rect key="frame" x="20" y="3.5" width="374" height="17.5"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="15"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="Background"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="3Na-g1-X2G"/>
+                                <constraint firstItem="hlO-le-MtW" firstAttribute="centerY" secondItem="4T6-n0-NIV" secondAttribute="centerY" id="hjl-oV-tKG"/>
+                                <constraint firstItem="hlO-le-MtW" firstAttribute="leading" secondItem="4T6-n0-NIV" secondAttribute="leading" constant="20" id="j6M-V1-oV4"/>
+                                <constraint firstAttribute="trailing" secondItem="hlO-le-MtW" secondAttribute="trailing" constant="20" id="vOb-32-eLo"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKO-Fk-TTE" userLabel="PublicID">
+                            <rect key="frame" x="0.0" y="526" width="414" height="24"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4X2-aN-5gk">
+                                    <rect key="frame" x="20" y="2.5" width="64.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <color key="textColor" name="LightPrimary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNY-2s-Ou1">
+                                    <rect key="frame" x="354.5" y="2.5" width="39.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <color key="textColor" name="LightPrimary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="White"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="08O-AW-IYS"/>
+                                <constraint firstItem="4X2-aN-5gk" firstAttribute="leading" secondItem="bKO-Fk-TTE" secondAttribute="leading" constant="20" id="RXw-gP-Irf"/>
+                                <constraint firstItem="4X2-aN-5gk" firstAttribute="centerY" secondItem="bKO-Fk-TTE" secondAttribute="centerY" id="kxi-YZ-6eJ"/>
+                                <constraint firstAttribute="trailing" secondItem="SNY-2s-Ou1" secondAttribute="trailing" constant="20" id="m8B-om-OAE"/>
+                                <constraint firstItem="SNY-2s-Ou1" firstAttribute="centerY" secondItem="bKO-Fk-TTE" secondAttribute="centerY" id="zCe-GQ-7z3"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jk8-p0-9n7" userLabel="Dimension">
+                            <rect key="frame" x="0.0" y="570" width="414" height="24"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dimension" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-EY-cAW">
+                                    <rect key="frame" x="20" y="2.5" width="76" height="19"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <color key="textColor" name="LightPrimary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdk-eJ-jHs">
+                                    <rect key="frame" x="354.5" y="2.5" width="39.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <color key="textColor" name="LightPrimary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="White"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="Dsb-Wa-eTM"/>
+                                <constraint firstItem="EN1-EY-cAW" firstAttribute="centerY" secondItem="Jk8-p0-9n7" secondAttribute="centerY" id="E9H-2Z-JyT"/>
+                                <constraint firstItem="EN1-EY-cAW" firstAttribute="leading" secondItem="Jk8-p0-9n7" secondAttribute="leading" constant="20" id="JQb-mQ-Wwx"/>
+                                <constraint firstAttribute="trailing" secondItem="kdk-eJ-jHs" secondAttribute="trailing" constant="20" id="YJx-JM-iBc"/>
+                                <constraint firstItem="kdk-eJ-jHs" firstAttribute="centerY" secondItem="Jk8-p0-9n7" secondAttribute="centerY" id="fcZ-jC-xUK"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4c-o4-qdE" userLabel="ProtectOn">
+                            <rect key="frame" x="0.0" y="614" width="414" height="24"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Protect on" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyT-g2-Lte">
+                                    <rect key="frame" x="20" y="2.5" width="74.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <color key="textColor" name="LightPrimary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyK-qJ-nsh">
+                                    <rect key="frame" x="354.5" y="2.5" width="39.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                                    <color key="textColor" name="LightPrimary"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="White"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="HLK-24-IQW"/>
+                                <constraint firstAttribute="trailing" secondItem="wyK-qJ-nsh" secondAttribute="trailing" constant="20" id="JF6-Il-3d1"/>
+                                <constraint firstItem="wyK-qJ-nsh" firstAttribute="centerY" secondItem="R4c-o4-qdE" secondAttribute="centerY" id="eIY-nq-xOd"/>
+                                <constraint firstItem="UyT-g2-Lte" firstAttribute="leading" secondItem="R4c-o4-qdE" secondAttribute="leading" constant="20" id="hJF-sD-l97"/>
+                                <constraint firstItem="UyT-g2-Lte" firstAttribute="centerY" secondItem="R4c-o4-qdE" secondAttribute="centerY" id="w27-5f-qal"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" name="White"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" name="White"/>
+            <constraints>
+                <constraint firstItem="mih-WX-L5y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Qf-Gl-3NJ"/>
+                <constraint firstAttribute="trailing" secondItem="mih-WX-L5y" secondAttribute="trailing" id="9GK-nd-Lou"/>
+                <constraint firstItem="mih-WX-L5y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ihx-MX-eNN"/>
+                <constraint firstAttribute="bottom" secondItem="mih-WX-L5y" secondAttribute="bottom" id="xVR-ap-mw6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="60.869565217391312" y="4.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.94900000095367432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightPrimary">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightRed">
+            <color red="1" green="0.89800000190734863" blue="0.90600001811981201" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

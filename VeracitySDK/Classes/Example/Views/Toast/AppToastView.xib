@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NB Akademie Regular.ttf">
+            <string>NBAkademieRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppToastView" customModule="AppClip" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="mfr-wW-ykt"/>
+                <outlet property="leftIcon" destination="2D4-XI-E5y" id="BMD-Cq-kOz"/>
+                <outlet property="messageLabel" destination="P81-RY-9J8" id="Rhw-Gy-SsP"/>
+                <outlet property="rightButton" destination="zOw-to-2LS" id="WwV-oI-hbY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RYh-rM-keS">
+                    <rect key="frame" x="16" y="16" width="379" height="32"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="success-white" translatesAutoresizingMaskIntoConstraints="NO" id="2D4-XI-E5y">
+                            <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="5ic-S4-Orq"/>
+                                <constraint firstAttribute="width" constant="24" id="n7E-vD-Id8"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app uses significant amount of data. We recommend connecting your device to a Wi-Fi." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P81-RY-9J8">
+                            <rect key="frame" x="34" y="0.0" width="280" height="32"/>
+                            <fontDescription key="fontDescription" name="NBAkademieRegular" family="NB Akademie" pointSize="16"/>
+                            <color key="textColor" name="White"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOw-to-2LS">
+                            <rect key="frame" x="324" y="0.0" width="55" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="MBB-Tz-Xhq"/>
+                                <constraint firstAttribute="width" constant="55" id="jIi-eF-VwT"/>
+                            </constraints>
+                            <state key="normal" image="closeButton"/>
+                            <connections>
+                                <action selector="rightActionPressed:" destination="-1" eventType="touchUpInside" id="7SL-zv-uqk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="Primary"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RYh-rM-keS" secondAttribute="bottom" constant="16" id="0rq-qd-NZ6"/>
+                <constraint firstItem="RYh-rM-keS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="lVO-Co-N0x"/>
+                <constraint firstItem="RYh-rM-keS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="qX2-Oy-Tdk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RYh-rM-keS" secondAttribute="trailing" constant="16" id="zsv-FE-snI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="6"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="135.50724637681159" y="-141.96428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closeButton" width="20" height="20"/>
+        <image name="success-white" width="24" height="24"/>
+        <namedColor name="Primary">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -341,7 +341,11 @@ final class SetDimensionViewController: UIViewController, SetDimensionPresentabl
         let isCm = UserManager.shared.user?.metricalUnits ?? true
         unitSegmentControl.selectedSegmentIndex = isCm ? UnitType.cm.rawValue : UnitType.inch.rawValue
         unitSegmentControl.tintColor = AppColor.gray
-        unitSegmentControl.selectedSegmentTintColor = AppColor.primary
+        if #available(iOS 13.0, *) {
+            unitSegmentControl.selectedSegmentTintColor = AppColor.primary
+        } else {
+            // Fallback on earlier versions
+        }
         unitSegmentControl.setTitleTextAttributes( [NSAttributedString.Key.foregroundColor: AppColor.white], for: .selected)
         unitSegmentControl.setTitleTextAttributes( [NSAttributedString.Key.foregroundColor: AppColor.lightPrimary], for: .normal)
         

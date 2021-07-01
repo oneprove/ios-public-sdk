@@ -63,6 +63,12 @@ final class ProtectItemDetailInteractor: ProtectItemDetailPresentableListener {
         localItemsNotificationToken?.invalidate()
         localItemsNotificationToken = localItems?.observe({ [weak self] (changes) in
             switch changes {
+            case .initial:
+                // First stage, data are loaded.
+                break
+            case .error(let error):
+                // Something went wrong.
+                debugLog("error: \(error)")
             case .update(_, let deletions, _, let modifiers):
                 guard modifiers.count > 0 else {
                     if deletions.count > 0 {
@@ -76,8 +82,6 @@ final class ProtectItemDetailInteractor: ProtectItemDetailPresentableListener {
                     self?.remoteItemID = item.createdArtworkID
                     self?.presenter?.reloadData(itemDetail: item)
                 }
-            default:
-                break
             }
         })
     }

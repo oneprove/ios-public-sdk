@@ -1,0 +1,343 @@
+/* 
+  Localizable.strings
+  ONEPROVE
+
+  Created by Minh Chu on 11/11/20.
+  Copyright © 2020 ONEPROVE s.r.o. All rights reserved.
+*/
+
+"DAML" = "DAML";
+"POCPakistan" = "POC - Pakistan";
+
+/// A
+"about" = "About";
+"acceptItemTransfer" = "Accept Item Transfer";
+"accountAcivatedSuccess" = "Account successfully activated.";
+"accountWaitingActive" = "Account is waiting for activation.";
+"activeTokenExpired" = "Activation token is expired.";
+"agree" = "I agree";
+"agreeRegisterAccount" = "By clicking Create Account, you agree to our";
+"all" = "All";
+"analyzing" = "Analyzing";
+"analyzingMessage" = "You'll be notified once the system is done analyzing the photos.";
+"apparel" = "Apparel";
+"arGuiding" = "AR guiding";
+"arGuidingMessage" = "Point the camera at the %@ at a straight angle";
+"art" = "Art";
+"arweave" = "Arweave";
+"authenticator" = "Authenticator";
+"author" = "Author's";
+"authorNameAndSurname" = "Author's Name and Surname";
+"arCameraCapturingMessage" = "Hold steady, taking pictures";
+"arCameraTooCloseMesssage" = "Move back to fit the highlighted area in the view.";
+"arCameraFitEntireMessage" = "Fit the entire %@ into the frame";
+"arCameraMoveCloseMessage" = "Now move closer towards the red rectangle";
+"arCameraTrackingLoseMessage" = "Tracking lost. Move back a little to resume tracking.";
+"arCameraHoldSteadyMessage" = "Hold steady, taking pictures %@";
+"arCameraBadQualityMessage" = "Bad quality photo may produce skewed results";
+"areYouSure" = "Are you sure?";
+
+/// B
+"backToMyItems" = "Back to my items";
+"balance" = "Balance";
+"buyMoreCredits" = "Buy more credits";
+"backToList" = "Back to list";
+"blurErrorTitle" = "Please retake the photo";
+"blurErrorMessage" = "The photo you took is blurry and would not allow our system to work responsibly.";
+"beforeStart" = "Before you start";
+
+/// C
+"changeVertical" = "Change vertical";
+"chooseItemType" = "Choose item type";
+"chooseVertical" = "Choose vertical";
+"close" = "Close";
+"cm" = "Cm";
+"confirm" = "Confirm";
+"confirmAccount" = "Confirm Account";
+"confirmAndContinue" = "Confirm And Continue";
+"coreTestScreen" = "Core Test Screen";
+"createAccount" = "Create Account";
+"creditDescription" = "Protect : 20 credits, Verify: 2 credits Verification of items owned by you is free";
+"credits" = "Credits";
+"cropBackground" = "Crop background";
+"cancel" = "Cancel";
+"crop" = "Crop";
+"cantBeTold" = "Can’t be told";
+"cantBeToldDesc" = "The system cannot provide a reliable verification result as the taken photo is of a low quality. Please try again.";
+"createItemHelpStep1Title" = "Place your document on a flat surface and take a photo of it at a straight angle. Hold steady!";
+"createItemHelpStep1Desc" = "The system will then scan and choose a specific area to create your item's Physical Code.";
+"createItemHelpStep2Title" = "Adjust the corners of the frame to crop and remove the background of your document. ";
+"createItemHelpStep2Desc" = "This is to make sure the system doesn’t include the background into your item’s Physical Code. ";
+"createItemHelpStep3Title" = "Almost there — just put in the exact dimensions of your item.";
+"createItemHelpStep3Desc" = "This will help the system to accurately calculate the area of your document's Physical Code. You can use the Measure app to get the dimensions.";
+"createItemHelpStep4Title" = "Make sure your item is placed on a flat surface with good lighting and point your camera at it so that it's fully visible.";
+"createItemHelpStep4Desc" = "The system will then guide you to the correct spot and take the photos automatically.";
+"createItemHelpLPMStep2Title" = "Adjust the corners of the frame to crop out the label and coin from the casing.";
+"createItemHelpLPMStep3Title" = "Almost there — just put in the exact dimensions of the cropped area.";
+"createItemHelpLPMStep2Desc" = "This additional data collection process ensures the reliability of the authentication process.";
+"createItemHelpLPMStep3Desc" = "This helps with accurate calculation of the label area to finalize item's Physical Code. You can use the Measure app to get the dimensions.";
+"createItemInstructOverPhoto" = "Take a photo when the entire document is in the frame";
+"createItemLPMInstructOverPhoto" = "Align item's edges with the edges of the green safe zone and take photo.";
+"createItemInstructCropPhoto" = "Adjust the corners and crop the background";
+"createItemInstructTakeFingerAR" = "Fit the entire item into the frame";
+"createItemInstructTakeFingerNormal" = "Move closer to the highlighted area";
+"createItemInstructTakeFingerSicpa" = "Align the missing part of the picture with the item and take a photo";
+"cropConfirmMessage" = "Please confirm you can clearly see the entire item without any borders.";
+"cropConfirmLPMMessage" = "Please confirm that picture covers entire label and is not blurred.";
+"cropConfirmLPMCoinMessage" = "Please confirm that picture covers entire coin and is not blurry.";
+"cropRedo" = "Redo crop";
+"confirmNormalFingerprintMessage" = "If the photo is not sharp, please go back and retake it";
+"confirmLPMFingerprintMessage" = "Please confirm picture covers entire coin casing and is not blurred.";
+"continue" = "Continue";
+"cropLabel" = "Crop Label";
+"cropCoin" = "Crop Coin";
+"cropLabelToastMessage" = "Adjust the frame corners to crop out the label.";
+"cropCoinToastMessage" = "Adjust the circular frame to crop out the coin.";
+"clearSearchHistory" = "Clear search history";
+
+/// D
+"deMarchiProtector" = "De Marchi Protector";
+"defaultMeasurementUnits" = "Default measurement units";
+"demo" = "Demo";
+"dimensionError" = "Fill in item's exact dimensions. Dimensions needs to be larger than %@ and smaller than %@ %@ in width and height.";
+"dimensionErrorRatio" = "This ratio doesn’t seem right. Enter the correct dimensions or try swapping the width and height.";
+"dimensionWH" = "Dimensions (w × h)";
+"dimensions" = "Dimensions";
+"dimensionsAreNotValidNumber" = "Dimensions are not a valid numbers.";
+"doesntMatch" = "Doesn't match";
+"deleteItem" = "Delete item";
+"deleteItemConfirmTitle" = "Do you really wish to delete the %@ item?";
+"deleteItemconfirmDesc" = "Deleting an item is a permanent action which cannot be undone.";
+"deleteSuccessMessage" = "Item %@ has been successfully deleted.";
+"deleteItemErrorWhenIncomplete" = "This item is incompleted. So, you can not delete it at the moment.";
+"deleteItemErrorNotIsProtection" = "This item is not a Protection item";
+
+/// E
+"email" = "E-mail";
+"emailExist" = "This email is already registered";
+"errorCombileEmailPassword" = "The combination of the e-mail and the password is invalid. Please try again.";
+"errorFillEmailPassword" = "Please fill in email and password fields";
+"emailSentTo" = "Passport has been sent to";
+
+/// F
+"failed" = "Failed";
+"finishVerification" = "Finish Verification";
+"forgotPassword" = "Forgot password?";
+"fingerprintNormalTakeMoreMessage" = "Please take a picture of the same fingerprint again";
+
+/// G
+"gotIt" = "Got it";
+"goBack" = "Go back";
+
+
+/// H
+"h" = "H";
+"height" = "Height";
+"helmetOrFootball" = "Helmet or Football";
+"help" = "Help";
+"hide" = "HIDE";
+"history" = "History";
+"historyEmptyDesc" = "All your verifications attempts will be logged here. Choose to verify your first document in the My Documents tab.";
+
+/// I
+"identityDocuments" = "Identity documents";
+"imperial" = "Imperial";
+"inApp" = "In App";
+"inTransfer" = "In transfer";
+"inchs" = "Inches";
+"in" = "in";
+"incomplete" = "Incomplete";
+"infoEmail" = "info@demarchi.com";
+"inputError" = "Input error";
+"invalidEmailOrPassword" = "Invalid password or email";
+"inviteTitleLabel" = "is invite-only for now.\nTo get access, let us know at";
+"itemDetail" = "Item detail";
+"itemInfo" = "Item info";
+"itemName" = "Item's Name";
+"incorrectResult" = "Incorrect Result?";
+
+/// J
+
+/// K
+
+/// L
+"label" = "Label";
+"labels" = "Labels";
+"landingDesc" = "Veracity Authenticator is invite-only for now. To get access, let us know at";
+"linkWasResent" = "Link was resended";
+"login" = "Log in";
+"loginFailed" = "Login failed";
+"logout" = "Log Out";
+"lowBalanceError" = "You don't have enough balance";
+"lpmPoc" = "LPM POC/Pilot";
+"lpmPocHelpStep1" = "Place your casing on a flat surface with label facing the camera and position the camera above the item.";
+"lpmPocHelpStep2" = "Align the casing’s edges with the safe zone (green area) and snap a photo.";
+
+/// M
+"metric" = "Metric";
+"myArweaveWallet" = "My arweave wallet";
+"myItemEmptyDesc" = "To verify items, you first need to protect some. Once you do so, they will appear in this list.";
+"myItems" = "My items";
+"markedAsIncorrect" = "Marked as incorrect";
+
+/// N
+"nameAndSurname" = "Name and Surname";
+"networkError" = "Please connect your device to the internet to proceed.";
+"newAccount" = "New Account";
+"newPassword" = "New password";
+"newPasswordLeast6Chars" = "New password need to have at least 6 characters";
+"news" = "News";
+"notNow" = "Not now";
+"notProtected" = "Not protected";
+"notificationSetup" = "Notification Setup";
+
+/// O
+"off" = "OFF";
+"on" = "ON";
+"openEmailApp" = "Open email app";
+"or" = "Or";
+"orChoose" = "Or choose";
+"offlineMessage" = "You’re offline. Please connect your device to the internet.";
+
+/// P
+"packaging" = "Packaging";
+"password" = "Password";
+"passwordLeast6Chars" = "Password need to have at least 6 characters";
+"passwordReset" = "Password Reset";
+"passwordResetFailed" = "Password reset failed";
+"passwordResetWasSentTo" = "Password reset link was sent to";
+"pastVerifications" = "Past verifications";
+"pending" = "Pending";
+"plan" = "Plan";
+"plaseTryAgain" = "Please try again";
+"player" = "Player's";
+"pleaseConnectToInternet" = "Please connect to the internet";
+"pleaseEnterPasswordFor" = "Please type in you new password for";
+"pleaseEnterValidEmail" = "Please enter valid email";
+"pleaseFillAllFields" = "Please fill all fields";
+"pleaseFillEmail" = "Please fill email";
+"pleaseFillNewPassword" = "Please fill new password";
+"pleaseProvideValidEmail" = "Please provide valid email";
+"pleaseTryLater" = "Please try again later";
+"protect" = "Protect";
+"protectJersey" = "Protect a jersey";
+"protectNew" = "Protect new";
+"protectNewItem" = "Protect new item";
+"protected" = "Protected";
+"protectedOn" = "Protected on";
+"protectedPhysicalCode" = "Protected by Physical Code";
+"protectYourFirstItem" = "Protect your first item";
+"protectYourFirstItemDesc" = "We'll guide you through a quick 4-step process to protect your item by taking a series of photos.";
+"protectYourFirstItemMessage" = "Please have your item ready on a flat surface for the next step.";
+"publicId" = "Public ID";
+"pendingMessage" = "Waiting until upload of other item is finished";
+
+
+/// Q
+
+/// R
+"readOurPolicy" = "Read our Privacy Policy.";
+"resendLinkFailed" = "Resend link failed";
+"resendTheLink" = "Resend the link";
+"resetPassword" = "Reset password";
+"resetPasswordDesc" = "Enter the e-mail you used during registration. We’ll send you there a link to reset your password.";
+"resetPasswordFailedNoLongerValid" = "The reset link is no longer valid. Please repeat the process if you wish to reset your password.";
+"resetPasswordLinkErrorLoggerValid" = "The reset link is no longer valid.\nFor security reasons, the password reset link has to be used within 4 hours after the request and can only be used once.";
+"resetPasswordSuccessDesc" = "Check your inbox and tap the reset link to setup a new password for you account.";
+"resetPasswordSuccessMessage" = "Password reset link was successfully sent to ";
+"retakePhoto" = "Retake photos";
+"recentSearches" = "Recent searches";
+"revert" = "REVERT";
+"resultFeedback" = "Result Feedback";
+"resultFeedbackDesc" = "Reporting of the incorrect results improves the accuracy of the future verifications towards reaching 100%.";
+"resultFeedbackCheckBox" = "I'm sure I was verifying the correct item";
+"revertDesc" = "Reverting will discard the provided feedback on the result.";
+"revertBack" = "Revert back";
+
+
+/// S
+"sName" = "'s Name";
+"search" = "Image search";
+"searchItemToVerify" = "Search items to verify";
+"sendFeedback" = "Send feedback";
+"sendRestLink" = "Send reset link";
+"sentConfirmationLinkTo" = "We’ve sent an account confirmation link to";
+"set" = "Set";
+"setAndSignIn" = "Set & Sign in";
+"setDimension" = "Set dimensions";
+"setItemName" = "ITEM DETAILS";
+"setDimensions" = "Set dimensions";
+"setNewPassword" = "Set new password";
+"setNewPasswordFor" = "Set a new password for ";
+"settings" = "Settings";
+"shareAnalytic" = "Share analytics";
+"shareAnalyticData" = "Share analytics data";
+"shareAnalyticHeadline" = "Securely sharing analytics information helps us improve our products, investigate potential problems, and provide you with extra technical support.";
+"shareAnalyticText1" = "Veracity Protocol respects your privacy and is committed to protecting your personal information. Your personal data might be collected by us or 3rd parties, such as Smartlook.com, s.r.o., VAT ID: CZ 095 08 830.";
+"shareAnalyticText2" = "Data are encrypted at rest using 256-bit Advanced Encryption Standard (AES-256) algorithm. Smartlook uses SSL/TLS encryption (Secure Sockets Layer / Transport Layer Security) and the latest security standards to protect your data. All incoming and outgoing data from our servers is encrypted. Smartlook is PCI DSS compliant.";
+"shareAnalyticText3" = "By tapping “Share Analytics” you agree to share encrypted usage data. You can always change your decision later in the account settings.";
+"show" = "SHOW";
+"signin" = "Sign In";
+"sportMemorabilia" = "Sport memorabilia";
+"sendItemToEmail" = "Send item to my e-mail";
+"sendItemToEmailErrorMessage" = "This item can not send to your email, because it has not been protected. Please check and try again.";
+"step" = "Step";
+"step1" = "STEP 1";
+"step2" = "STEP 2";
+"sicpa" = "Sicpa";
+
+/// T
+"takeCloseUpPhoto" = "Take close-up photos";
+"takeOverviewPhoto" = "Take overview photo";
+"termAndCondition" = "Terms & Conditions";
+"termAndConditions" = "Terms & Conditions";
+"tradingCard" = "Trading card";
+"takeLPMFingerOverlayStep1Message" = "Align item's edges with the edges of the green safe zone and take photo.";
+"takeFingerOverlayStep1Message" = "Take a photo of the area you wish to protect from ~8 cm distance";
+"takeFingerOverlayStep2Message" = "Take a photo of the same area again. Use the overlay picture for a proper alignment";
+"takeFingerOverlayVerifyMessage" = "Use the overlay picture for a proper alignment";
+
+/// U
+"units" = "Units";
+"uploading" = "Uploading";
+"unableProtectItem" = "Unable to protect item";
+"uploadingMessage" = "The photos are now being uploaded to our servers.";
+
+/// V
+"veracity" = "Veracity";
+"veracityEmail" = "hello@veracityprotocol.org";
+"verified" = "Verified";
+"verify" = "Verify";
+"verifyItem" = "Verify item";
+"verifyNew" = "Verify New";
+"verifyNewItem" = "Verify new item";
+"vertical" = "Vertical";
+"verificationDetail" = "Verification detail";
+"verifiedSuccessTitle" = "Verified as Authentic";
+"verifiedSuccessMessage" = "Scanned Item matches the original.";
+"verifiedFailedTitle" = "Not Verified";
+"verifiedFailedMessage" = "Item doesn't match the original.";
+"verifiedPendingMessage" = "Waiting until upload of the other item is finished.";
+"verifiedUploadingMessage" = "The photos are now being uploaded.";
+"verifiedAnalyzingMessage" = "You'll be notified once the system is done analyzing the photos.";
+"verifiedUnableToVerifyMessage" = "Verification is not possible due to low photo quality or item-overlay alignment.";
+"verifiedUnableToVerifyTitle" = "Unable to Verify";
+"verificationDetails" = "Verification details";
+"verifyDate" = "Date";
+"verifyLocation" = "Location";
+"verifyUser" = "User";
+"verifyAgain" = "Verify again";
+"verifiedItem" = "Verified Item";
+
+/// W
+"w" = "W";
+"waistband" = "Waistband";
+"whichAccountWantToResetPassword" = "Which account do you wish to reset?";
+"width" = "Width";
+
+/// Y
+"year" = "Year";
+"yearCreationError1" = "Year of creation must be after Christ.";
+"yearCreationError2" = "Year of creation cannot be in the future.";
+"yearIsNotValidNumber" = "Year is not a valid number.";
+"yearOfCreation" = "Year of creation";

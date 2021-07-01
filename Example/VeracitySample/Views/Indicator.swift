@@ -16,7 +16,8 @@ class Indicator {
             return
         }
         
-        let spinner = UIActivityIndicatorView(style: .large)
+        let spinner = UIActivityIndicatorView()
+        spinner.style = .gray
         spinner.translatesAutoresizingMaskIntoConstraints = false
         spinner.startAnimating()
         view.addSubview(spinner)

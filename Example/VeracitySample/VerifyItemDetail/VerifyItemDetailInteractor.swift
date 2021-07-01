@@ -9,7 +9,7 @@
 import RealmSwift
 import VeracitySDK
 
-protocol VerifyItemDetailPresentable: class {
+protocol VerifyItemDetailPresentable: AnyObject {
     var listener: VerifyItemDetailPresentableListener? { get set }
     func reloadData(item: VeracityItem)
 }
@@ -39,6 +39,12 @@ final class VerifyItemDetailInteractor: VerifyItemDetailPresentableListener {
         localItemsNotificationToken?.invalidate()
         localItemsNotificationToken = localItems?.observe({ [weak self] (changes) in
             switch changes {
+            case .initial:
+                // First stage, data are loaded.
+                break
+            case .error(let error):
+                // Something went wrong.
+                debugLog("error: \(error)")
             case .update(_,  let deletions, _, let modifiers):
                 guard modifiers.count > 0 else {
                     if deletions.count > 0 {
@@ -52,8 +58,6 @@ final class VerifyItemDetailInteractor: VerifyItemDetailPresentableListener {
                     self?.remoteItemID = item.jobID
                     self?.presenter?.reloadData(item: item)
                 }
-            default:
-                break
             }
         })
     }

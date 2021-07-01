@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        VeracitySDK.configuration.type = .demo
         ConnectionManager.shared.startObservingChanges()
         self.requestCameraPermission { (_) in }
     }
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
         var yourEmail: String? = "minh@veracityprotocol.org"
         var yourPassword: String? = "testing"
         guard let email = yourEmail, let password = yourPassword else {
-            UIAlertController(title: "Replace your email and password in ViewController.swift (line 35) to start").show()
+            UIAlertController(title: "Replay your email and password to start").show()
             return
         }
         
@@ -44,7 +45,6 @@ class ViewController: UIViewController {
             Indicator.shared.hideActivityIndicator()
             if success {
                 self?.moveToProtectItem()
-                UploadManager.shared.startObserving()
                 JobResultChecker.shared.setupObserving()
             } else {
                 UIAlertController(title: "Login failed. Please try again.").show()

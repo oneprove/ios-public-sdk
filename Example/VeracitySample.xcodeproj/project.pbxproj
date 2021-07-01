@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47306ECB269C460C0031139D /* Pods_VeracitySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BD7B63011F66018E9D5671 /* Pods_VeracitySample.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		473575EE2663E2F100742765 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473575ED2663E2F100742765 /* UIAlertControllerExtensions.swift */; };
 		475101E5265D3D71009FA906 /* ProtectItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B2265D3D71009FA906 /* ProtectItemViewController.swift */; };
 		475101E6265D3D71009FA906 /* TakeOverviewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475101B4265D3D71009FA906 /* TakeOverviewPhotoViewController.swift */; };
@@ -39,12 +40,21 @@
 		47510209265D3D71009FA906 /* ProtectItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475101E1265D3D71009FA906 /* ProtectItemViewController.xib */; };
 		4792CC15266BB4D400A28CF9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792CC14266BB4D400A28CF9 /* UIView+Extension.swift */; };
 		4797EA6F265C128900614B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797EA6E265C128900614B11 /* AppDelegate.swift */; };
-		4797EA71265C128900614B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797EA70265C128900614B11 /* SceneDelegate.swift */; };
 		4797EA73265C128900614B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797EA72265C128900614B11 /* ViewController.swift */; };
 		4797EA76265C128900614B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797EA74265C128900614B11 /* Main.storyboard */; };
 		4797EA78265C128E00614B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4797EA77265C128E00614B11 /* Assets.xcassets */; };
 		4797EA7B265C128E00614B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797EA79265C128E00614B11 /* LaunchScreen.storyboard */; };
-		6D6BBD100549F58D17FF6596 /* Pods_VeracitySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1984875E7534E5C7C8E204A8 /* Pods_VeracitySample.framework */; };
+		78A18D3926AC6D0C003EDAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A18D3826AC6D0C003EDAD9 /* AppDelegate.swift */; };
+		78A18D3B26AC6D0C003EDAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A18D3A26AC6D0C003EDAD9 /* SceneDelegate.swift */; };
+		78A18D3D26AC6D0C003EDAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A18D3C26AC6D0C003EDAD9 /* ViewController.swift */; };
+		78A18D4026AC6D0C003EDAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A18D3E26AC6D0C003EDAD9 /* Main.storyboard */; };
+		78A18D4226AC6D0D003EDAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A18D4126AC6D0D003EDAD9 /* Assets.xcassets */; };
+		78A18D4526AC6D0D003EDAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A18D4326AC6D0D003EDAD9 /* LaunchScreen.storyboard */; };
+		78A18D4A26AC6D0D003EDAD9 /* DemoClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 78A18D3626AC6D0C003EDAD9 /* DemoClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78A18D5026AC8177003EDAD9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A18D4F26AC8177003EDAD9 /* CameraView.swift */; };
+		78A18D5C26AC838C003EDAD9 /* TakePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A18D5926AC838B003EDAD9 /* TakePhotoViewController.xib */; };
+		78A18D5D26AC838C003EDAD9 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A18D5A26AC838B003EDAD9 /* TakePhotoViewController.swift */; };
+		9CE9AC4B396065784A6F1A7D /* Pods_DemoClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6A8ADD63D12B9EDC1EF263 /* Pods_DemoClip.framework */; };
 		EA02003926649EF500D15DC7 /* ProtectItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02002926649EF500D15DC7 /* ProtectItemDetailViewController.swift */; };
 		EA02004026649EF500D15DC7 /* ProtectItemInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02003526649EF500D15DC7 /* ProtectItemInfoView.xib */; };
 		EA02004126649EF500D15DC7 /* ProtectItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02003626649EF500D15DC7 /* ProtectItemInfoView.swift */; };
@@ -63,22 +73,35 @@
 		EA92C9752660DFF700AFC949 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92C9732660DFF700AFC949 /* KeyboardInfo.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		78A18D4826AC6D0D003EDAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4797EA63265C128900614B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A18D3526AC6D0C003EDAD9;
+			remoteInfo = DemoClip;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		4792CC38266BB69800A28CF9 /* Embed Frameworks */ = {
+		78A18D4E26AC6D0D003EDAD9 /* Embed App Clips */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
 			files = (
+				78A18D4A26AC6D0D003EDAD9 /* DemoClip.app in Embed App Clips */,
 			);
-			name = "Embed Frameworks";
+			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1984875E7534E5C7C8E204A8 /* Pods_VeracitySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeracitySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D930592F66760F9798B6B19 /* Pods-VeracitySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeracitySample.debug.xcconfig"; path = "Target Support Files/Pods-VeracitySample/Pods-VeracitySample.debug.xcconfig"; sourceTree = "<group>"; };
+		1CAF0DFC5B293E3901C022D2 /* Pods-VeracitySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeracitySample.debug.xcconfig"; path = "Target Support Files/Pods-VeracitySample/Pods-VeracitySample.debug.xcconfig"; sourceTree = "<group>"; };
+		360161A9A1BFDA60A339AE73 /* Pods-VeracitySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeracitySample.release.xcconfig"; path = "Target Support Files/Pods-VeracitySample/Pods-VeracitySample.release.xcconfig"; sourceTree = "<group>"; };
+		3B6A8ADD63D12B9EDC1EF263 /* Pods_DemoClip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoClip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFEEA03F672B7513F4107AE /* Pods-DemoClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoClip.release.xcconfig"; path = "Target Support Files/Pods-DemoClip/Pods-DemoClip.release.xcconfig"; sourceTree = "<group>"; };
 		473575ED2663E2F100742765 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
 		475101B2265D3D71009FA906 /* ProtectItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemViewController.swift; sourceTree = "<group>"; };
 		475101B4265D3D71009FA906 /* TakeOverviewPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOverviewPhotoViewController.swift; sourceTree = "<group>"; };
@@ -112,13 +135,25 @@
 		4792CC14266BB4D400A28CF9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		4797EA6B265C128900614B11 /* VeracitySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeracitySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4797EA6E265C128900614B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4797EA70265C128900614B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4797EA72265C128900614B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4797EA75265C128900614B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4797EA77265C128E00614B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4797EA7A265C128E00614B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4797EA7C265C128E00614B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E593A0FF653FC9A61415CBA /* Pods-VeracitySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeracitySample.release.xcconfig"; path = "Target Support Files/Pods-VeracitySample/Pods-VeracitySample.release.xcconfig"; sourceTree = "<group>"; };
+		4AE8E7B2A5B98D838B6FABC2 /* Pods-DemoClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoClip.debug.xcconfig"; path = "Target Support Files/Pods-DemoClip/Pods-DemoClip.debug.xcconfig"; sourceTree = "<group>"; };
+		78A18D3626AC6D0C003EDAD9 /* DemoClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A18D3826AC6D0C003EDAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78A18D3A26AC6D0C003EDAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78A18D3C26AC6D0C003EDAD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78A18D3F26AC6D0C003EDAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78A18D4126AC6D0D003EDAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A18D4426AC6D0D003EDAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78A18D4626AC6D0D003EDAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A18D4726AC6D0D003EDAD9 /* DemoClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoClip.entitlements; sourceTree = "<group>"; };
+		78A18D4F26AC8177003EDAD9 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		78A18D5926AC838B003EDAD9 /* TakePhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhotoViewController.xib; sourceTree = "<group>"; };
+		78A18D5A26AC838B003EDAD9 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+		A3BD7B63011F66018E9D5671 /* Pods_VeracitySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeracitySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA02002926649EF500D15DC7 /* ProtectItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemDetailViewController.swift; sourceTree = "<group>"; };
 		EA02003526649EF500D15DC7 /* ProtectItemInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtectItemInfoView.xib; sourceTree = "<group>"; };
 		EA02003626649EF500D15DC7 /* ProtectItemInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectItemInfoView.swift; sourceTree = "<group>"; };
@@ -142,7 +177,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6BBD100549F58D17FF6596 /* Pods_VeracitySample.framework in Frameworks */,
+				47306ECB269C460C0031139D /* Pods_VeracitySample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A18D3326AC6D0C003EDAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE9AC4B396065784A6F1A7D /* Pods_DemoClip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +305,10 @@
 			isa = PBXGroup;
 			children = (
 				4797EA6D265C128900614B11 /* VeracitySample */,
+				78A18D3726AC6D0C003EDAD9 /* DemoClip */,
 				4797EA6C265C128900614B11 /* Products */,
-				9398A073DF0E38805550029D /* Pods */,
 				E3194E0FC5FA32151E9F551B /* Frameworks */,
+				98951EF81583F486ACCA95D6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -272,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				4797EA6B265C128900614B11 /* VeracitySample.app */,
+				78A18D3626AC6D0C003EDAD9 /* DemoClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,7 +326,6 @@
 			children = (
 				4797EA7C265C128E00614B11 /* Info.plist */,
 				4797EA6E265C128900614B11 /* AppDelegate.swift */,
-				4797EA70265C128900614B11 /* SceneDelegate.swift */,
 				4797EA72265C128900614B11 /* ViewController.swift */,
 				4797EA77265C128E00614B11 /* Assets.xcassets */,
 				4797EA79265C128E00614B11 /* LaunchScreen.storyboard */,
@@ -293,11 +337,39 @@
 			path = VeracitySample;
 			sourceTree = "<group>";
 		};
-		9398A073DF0E38805550029D /* Pods */ = {
+		78A18D3726AC6D0C003EDAD9 /* DemoClip */ = {
 			isa = PBXGroup;
 			children = (
-				2D930592F66760F9798B6B19 /* Pods-VeracitySample.debug.xcconfig */,
-				7E593A0FF653FC9A61415CBA /* Pods-VeracitySample.release.xcconfig */,
+				78A18D5726AC8374003EDAD9 /* TakePhoto */,
+				78A18D3826AC6D0C003EDAD9 /* AppDelegate.swift */,
+				78A18D3A26AC6D0C003EDAD9 /* SceneDelegate.swift */,
+				78A18D3C26AC6D0C003EDAD9 /* ViewController.swift */,
+				78A18D3E26AC6D0C003EDAD9 /* Main.storyboard */,
+				78A18D4126AC6D0D003EDAD9 /* Assets.xcassets */,
+				78A18D4326AC6D0D003EDAD9 /* LaunchScreen.storyboard */,
+				78A18D4626AC6D0D003EDAD9 /* Info.plist */,
+				78A18D4726AC6D0D003EDAD9 /* DemoClip.entitlements */,
+				78A18D4F26AC8177003EDAD9 /* CameraView.swift */,
+			);
+			path = DemoClip;
+			sourceTree = "<group>";
+		};
+		78A18D5726AC8374003EDAD9 /* TakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				78A18D5A26AC838B003EDAD9 /* TakePhotoViewController.swift */,
+				78A18D5926AC838B003EDAD9 /* TakePhotoViewController.xib */,
+			);
+			path = TakePhoto;
+			sourceTree = "<group>";
+		};
+		98951EF81583F486ACCA95D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF0DFC5B293E3901C022D2 /* Pods-VeracitySample.debug.xcconfig */,
+				360161A9A1BFDA60A339AE73 /* Pods-VeracitySample.release.xcconfig */,
+				4AE8E7B2A5B98D838B6FABC2 /* Pods-DemoClip.debug.xcconfig */,
+				3DFEEA03F672B7513F4107AE /* Pods-DemoClip.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -305,7 +377,8 @@
 		E3194E0FC5FA32151E9F551B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1984875E7534E5C7C8E204A8 /* Pods_VeracitySample.framework */,
+				A3BD7B63011F66018E9D5671 /* Pods_VeracitySample.framework */,
+				3B6A8ADD63D12B9EDC1EF263 /* Pods_DemoClip.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -372,21 +445,41 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4797EA7F265C128E00614B11 /* Build configuration list for PBXNativeTarget "VeracitySample" */;
 			buildPhases = (
-				398ACEA7CCC7C1516CA8D9FD /* [CP] Check Pods Manifest.lock */,
+				B5310A8352E8C889C7C4280A /* [CP] Check Pods Manifest.lock */,
 				4797EA67265C128900614B11 /* Sources */,
 				4797EA68265C128900614B11 /* Frameworks */,
 				4797EA69265C128900614B11 /* Resources */,
-				4792CC38266BB69800A28CF9 /* Embed Frameworks */,
-				85B195A93D71F3BB93905C81 /* [CP] Embed Pods Frameworks */,
+				7EB01E4246E8F9FAFF93AC28 /* [CP] Embed Pods Frameworks */,
+				78A18D4E26AC6D0D003EDAD9 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				78A18D4926AC6D0D003EDAD9 /* PBXTargetDependency */,
 			);
 			name = VeracitySample;
 			productName = VeracitySample;
 			productReference = 4797EA6B265C128900614B11 /* VeracitySample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		78A18D3526AC6D0C003EDAD9 /* DemoClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A18D4B26AC6D0D003EDAD9 /* Build configuration list for PBXNativeTarget "DemoClip" */;
+			buildPhases = (
+				1FB8A1FD623C2B24D13F5209 /* [CP] Check Pods Manifest.lock */,
+				78A18D3226AC6D0C003EDAD9 /* Sources */,
+				78A18D3326AC6D0C003EDAD9 /* Frameworks */,
+				78A18D3426AC6D0C003EDAD9 /* Resources */,
+				88768FF93F3FAA7A8AFA3D5F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoClip;
+			productName = DemoClip;
+			productReference = 78A18D3626AC6D0C003EDAD9 /* DemoClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -394,11 +487,14 @@
 		4797EA63265C128900614B11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					4797EA6A265C128900614B11 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					78A18D3526AC6D0C003EDAD9 = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
@@ -416,6 +512,7 @@
 			projectRoot = "";
 			targets = (
 				4797EA6A265C128900614B11 /* VeracitySample */,
+				78A18D3526AC6D0C003EDAD9 /* DemoClip */,
 			);
 		};
 /* End PBXProject section */
@@ -445,10 +542,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78A18D3426AC6D0C003EDAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A18D4526AC6D0D003EDAD9 /* LaunchScreen.storyboard in Resources */,
+				78A18D5C26AC838C003EDAD9 /* TakePhotoViewController.xib in Resources */,
+				78A18D4226AC6D0D003EDAD9 /* Assets.xcassets in Resources */,
+				78A18D4026AC6D0C003EDAD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		398ACEA7CCC7C1516CA8D9FD /* [CP] Check Pods Manifest.lock */ = {
+		1FB8A1FD623C2B24D13F5209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB01E4246E8F9FAFF93AC28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88768FF93F3FAA7A8AFA3D5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoClip/Pods-DemoClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoClip/Pods-DemoClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoClip/Pods-DemoClip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5310A8352E8C889C7C4280A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,23 +632,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85B195A93D71F3BB93905C81 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeracitySample/Pods-VeracitySample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,7 +671,6 @@
 				475101F5265D3D71009FA906 /* TakeFingerprintViewController.swift in Sources */,
 				EA92C7EA2660D44900AFC949 /* VerifyItemStream.swift in Sources */,
 				4792CC15266BB4D400A28CF9 /* UIView+Extension.swift in Sources */,
-				4797EA71265C128900614B11 /* SceneDelegate.swift in Sources */,
 				475101F2265D3D71009FA906 /* FingerprintConfirmView.swift in Sources */,
 				475101E5265D3D71009FA906 /* ProtectItemViewController.swift in Sources */,
 				EA92C9422660DADD00AFC949 /* Indicator.swift in Sources */,
@@ -533,7 +679,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78A18D3226AC6D0C003EDAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A18D3D26AC6D0C003EDAD9 /* ViewController.swift in Sources */,
+				78A18D3926AC6D0C003EDAD9 /* AppDelegate.swift in Sources */,
+				78A18D3B26AC6D0C003EDAD9 /* SceneDelegate.swift in Sources */,
+				78A18D5026AC8177003EDAD9 /* CameraView.swift in Sources */,
+				78A18D5D26AC838C003EDAD9 /* TakePhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78A18D4926AC6D0D003EDAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A18D3526AC6D0C003EDAD9 /* DemoClip */;
+			targetProxy = 78A18D4826AC6D0D003EDAD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4797EA74265C128900614B11 /* Main.storyboard */ = {
@@ -548,6 +714,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				4797EA7A265C128E00614B11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		78A18D3E26AC6D0C003EDAD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A18D3F26AC6D0C003EDAD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78A18D4326AC6D0D003EDAD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A18D4426AC6D0D003EDAD9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -673,19 +855,20 @@
 		};
 		4797EA80265C128E00614B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D930592F66760F9798B6B19 /* Pods-VeracitySample.debug.xcconfig */;
+			baseConfigurationReference = 1CAF0DFC5B293E3901C022D2 /* Pods-VeracitySample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EQ98RJTDMQ;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
 				INFOPLIST_FILE = VeracitySample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.VeracitySample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.auth.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,19 +877,67 @@
 		};
 		4797EA81265C128E00614B11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E593A0FF653FC9A61415CBA /* Pods-VeracitySample.release.xcconfig */;
+			baseConfigurationReference = 360161A9A1BFDA60A339AE73 /* Pods-VeracitySample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EQ98RJTDMQ;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
 				INFOPLIST_FILE = VeracitySample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.VeracitySample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.auth.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78A18D4C26AC6D0D003EDAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE8E7B2A5B98D838B6FABC2 /* Pods-DemoClip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoClip/DemoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				INFOPLIST_FILE = DemoClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.auth.example.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A18D4D26AC6D0D003EDAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DFEEA03F672B7513F4107AE /* Pods-DemoClip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoClip/DemoClip.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				INFOPLIST_FILE = DemoClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracityprotocol.auth.example.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -730,6 +961,15 @@
 			buildConfigurations = (
 				4797EA80265C128E00614B11 /* Debug */,
 				4797EA81265C128E00614B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A18D4B26AC6D0D003EDAD9 /* Build configuration list for PBXNativeTarget "DemoClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A18D4C26AC6D0D003EDAD9 /* Debug */,
+				78A18D4D26AC6D0D003EDAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

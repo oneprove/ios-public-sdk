@@ -9,11 +9,11 @@
 import UIKit
 import VeracitySDK
 
-protocol CropBackgroundPresentableListener: class {
+protocol CropBackgroundPresentableListener: AnyObject {
     func confirmCropped(_ croppedPhoto: UIImage, points: [CGPoint])
 }
 
-protocol CropBackgroundViewControllerDelegate: class {
+protocol CropBackgroundViewControllerDelegate: AnyObject {
     
 }
 

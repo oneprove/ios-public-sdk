@@ -131,7 +131,11 @@ final class ProtectItemDetailViewController: UIViewController, ProtectItemDetail
     }
     
     private func setupView() {
-        overrideUserInterfaceStyle = .light
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        } else {
+            // Fallback on earlier versions
+        }
         navigationController?.navigationBar.prefersLargeTitles = false
         navigationItem.title = "Item detail".uppercased()
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "arrow-left"), style: .plain, target: self, action: #selector(moveBack))

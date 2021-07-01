@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SequentialBlurDetector
+import Accelerate
+@_exported import BlurDetector
+import Foundation
+import MLPatchExtractor
+@_exported import SequentialBlurDetector
+import Swift
+import UIKit
+import _Concurrency
+@_hasMissingDesignatedInitializers public class ImageBlurrinessResult {
+  public var score: Swift.Float
+  public var image: UIKit.UIImage
+  @objc deinit
+}
+public enum BlurrinessMeasure {
+  case laplacianStandardDeviation
+  case mlBlurrinessProbability
+  public static func == (a: SequentialBlurDetector.BlurrinessMeasure, b: SequentialBlurDetector.BlurrinessMeasure) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class SequentialBlurDetector {
+  public var measure: SequentialBlurDetector.BlurrinessMeasure {
+    get
+  }
+  public var topResults: [SequentialBlurDetector.ImageBlurrinessResult]
+  public init(measure: SequentialBlurDetector.BlurrinessMeasure, keepTopN: Swift.Int = 2)
+  public func evaluate(image: UIKit.UIImage, patches: Swift.Int, sampling: MLPatchExtractor.MLPatchSampling, maskRectangle: CoreGraphics.CGRect, completion: @escaping (SequentialBlurDetector.SequentialBlurDetector, Swift.Float) -> Swift.Void)
+  public func reset()
+  public func topResultsSatisfy(_ predicate: (SequentialBlurDetector.ImageBlurrinessResult) -> (Swift.Bool)) -> Swift.Bool
+  @objc deinit
+}
+extension SequentialBlurDetector.BlurrinessMeasure : Swift.Equatable {}
+extension SequentialBlurDetector.BlurrinessMeasure : Swift.Hashable {}
