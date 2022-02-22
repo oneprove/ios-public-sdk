@@ -142,7 +142,7 @@ class TakeFingerprintOverlayView: UIView {
             self.startCamera()
             self.cameraStreamView.removeShapeOverlay()
             self.setupFingerprintOverlay(photo: fingerprintPhotos.first?.image)
-            self.showStatusLabel(message: Text.takeFingerOverlayStep2Message.localizedText)
+            self.showStatusLabel(message: "Take a photo of the same area again. Use the overlay picture for a proper alignment")
         }
     }
     
@@ -177,10 +177,10 @@ class TakeFingerprintOverlayView: UIView {
     }
     
     private func showStatusLabel(message: String) {
-        let statusView = StatusView()
-        statusView.show(in: cameraStreamView,
-                        message: message,
-                        position: .top)
+//        let statusView = StatusView()
+//        statusView.show(in: cameraStreamView,
+//                        message: message,
+//                        position: .top)
     }
     
     @objc func updateLayout() {
@@ -190,19 +190,20 @@ class TakeFingerprintOverlayView: UIView {
         
         // Show message label
         if isVerificationFlow() {
-            self.showStatusLabel(message: Text.takeFingerOverlayVerifyMessage.localizedText)
+            self.showStatusLabel(message: "Use the overlay picture for a proper alignment")
         } else {
             if AppManager.selectedVertical == .lpmPoc {
-                self.showStatusLabel(message: Text.takeLPMFingerOverlayStep1Message.localizedText)
+                self.showStatusLabel(message: "Align item's edges with the edges of the green safe zone and take photo.")
             } else {
-                self.showStatusLabel(message: Text.takeFingerOverlayStep1Message.localizedText)
+                self.showStatusLabel(message: "Take a photo of the area you wish to protect from ~8 cm distance")
             }
         }
     }
     
     // MARK: - Setup
     private func setupView() {
-        Bundle.main.loadNibNamed("TakeFingerprintOverlayView", owner: self, options: nil)
+        let bundle = Bundle(for: TakeFingerprintOverlayView.self)
+        bundle.loadNibNamed("TakeFingerprintOverlayView", owner: self, options: nil)
         addSubview(contentView)
         
         contentView.snp.makeConstraints { (make) in

@@ -25,6 +25,7 @@ public protocol ProtectItemStream {
     var unitType: UnitType { get set }
     var dimension: (width: Double, height: Double)? { get set }
     var fingerPhotos: [(blurScore: Float, image: UIImage)] { get set }
+    var algo: String? { get set }
 }
 
 public protocol MutableProtectItemStream: ProtectItemStream {
@@ -37,6 +38,7 @@ public protocol MutableProtectItemStream: ProtectItemStream {
     func update(unitType: UnitType)
     func addMore(fingerPhotos: [(blurScore: Float, image: UIImage)])
     func updateRetakeItem(_ item: ProtectItem)
+    func update(algo: String)
     
     func observerStepChange(_ stepCallback: @escaping (ProtectItemStep) -> Void)
     func observerOverPhotoCallBack(_ overPhotoCallback: @escaping (UIImage) -> Void)
@@ -59,6 +61,7 @@ public final class ProtectItemStreamImpl: MutableProtectItemStream {
     public var protectItem: LocalProtectItem?
     public var retakeItem: ProtectItem?
     public var takeFingerPrintType: TakeFingerprintType = .default
+    public var algo: String?
     
     private var stepCallback: ((ProtectItemStep) -> Void)?
     private var overPhotoCallback: ((UIImage) -> Void)?
@@ -129,6 +132,10 @@ public final class ProtectItemStreamImpl: MutableProtectItemStream {
     
     public func changeTakeFingerprintType(_ type: TakeFingerprintType) {
         self.takeFingerPrintType = type
+    }
+    
+    public func update(algo: String) {
+        self.algo = algo
     }
     
     public func updateRetakeItem(_ item: ProtectItem) {
@@ -204,7 +211,7 @@ extension ProtectItemStreamImpl {
         self.protectItem = item
         item.name = itemName
         item.year.value = Date().year
-        item.algo = AppManager.selectedVertical.defaultProtectAlgo
+        item.algo = self.algo ?? AppManager.selectedVertical.defaultProtectAlgo
         item.artist = Creator(firstName: "Veracity", lastName: "Demo")
         
         // Update dimention

@@ -14,8 +14,6 @@ enum ToastType {
     
     var leftIcon: UIImage? {
         switch self {
-        case .success:
-            return #imageLiteral(resourceName: "success-white")
         default:
             return nil
         }
@@ -23,8 +21,6 @@ enum ToastType {
     
     var rightIcon: UIImage? {
         switch self {
-        case .error:
-            return #imageLiteral(resourceName: "close")
         default:
             return nil
         }
@@ -134,7 +130,9 @@ class AppToastView: UIView {
     }
     
     private func setup() {
-        Bundle.main.loadNibNamed("AppToastView", owner: self, options: nil)
+        let bundle = Bundle(for: AppToastView.self)
+        bundle.loadNibNamed("AppToastView", owner: self, options: nil)
+        
         addSubview(contentView)
         contentView >>> self >>> {
             $0.snp.makeConstraints {

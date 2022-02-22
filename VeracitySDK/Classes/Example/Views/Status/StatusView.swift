@@ -79,7 +79,9 @@ class StatusView: UIView {
     }
     
     private func setup() {
-        Bundle.main.loadNibNamed("StatusView", owner: self, options: nil)
+        let bundle = Bundle(for: StatusView.self)
+        bundle.loadNibNamed("StatusView", owner: self, options: nil)
+        
         addSubview(contentView)
         contentView >>> self >>> {
             $0.snp.makeConstraints {

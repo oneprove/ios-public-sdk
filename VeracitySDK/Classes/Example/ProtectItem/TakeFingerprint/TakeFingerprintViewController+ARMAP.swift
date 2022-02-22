@@ -21,6 +21,7 @@ extension TakeFingerprintViewController {
     }
     
     internal func switchToNormalMode() {
+        flashButton.isHidden = false
         cameraModeButton.isSelected = true
         snapPhotoButton.isHidden = false
         fingerprintARView?.stop()
@@ -38,6 +39,7 @@ extension TakeFingerprintViewController {
     }
     
     internal func switchToARMode() {
+        flashButton.isHidden = false
         cameraModeButton.isSelected = false
         snapPhotoButton.isHidden = true
         fingerprintARView?.stop()

@@ -14,7 +14,7 @@ import BlurDetector
 import FingerprintFinder
 
 
-protocol TakeFingerprintNormalViewDelegate: class {
+protocol TakeFingerprintNormalViewDelegate: AnyObject {
     func normalCameraSetupCompleted()
     func onTakenNormalFingers(photos: [(blurScore: Float, image: UIImage)])
 }

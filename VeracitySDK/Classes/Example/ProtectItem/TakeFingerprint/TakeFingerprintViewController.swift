@@ -144,6 +144,8 @@ public final class TakeFingerprintViewController: UIViewController, TakeFingerpr
         
         // Invisible some UI
         self.snapPhotoButton.isHidden = true
+        self.cameraModeButton.isHidden = true
+        self.flashButton.isHidden = true
         
         if let _ = self.navigationController {
             navigationController?.navigationBar.barTintColor = AppColor.white
@@ -181,6 +183,11 @@ public final class TakeFingerprintViewController: UIViewController, TakeFingerpr
 // MARK: - Interactor
 extension TakeFingerprintViewController {
     func gotFingerprintRect(_ rect: CGRect, overviewPhoto: UIImage, dimension: (width: Double, height: Double)) {
+        let type = getCameraStyle()
+        guard type == .default else {
+            return
+        }
+        
         self.fingerInfo = (rect, overviewPhoto, dimension)
         self.checkItemDimension(dimension)
     }
@@ -202,6 +209,10 @@ extension TakeFingerprintViewController {
         } else {
             self.switchToNormalMode()
         }
+        
+        // check disable switch camera mode
+        self.cameraModeButton.isHidden = !enableCameraSwitch
+
     }
     
     func loading(_ show: Bool) {
