@@ -35,7 +35,11 @@ Run `pod instal` on example app folder and run....
 
 <a name="Instalation"></a>
 ### 2. Instalation
-```ruby
+Before run ```pod install``` make sure install ```git-lfs``` tools. Run this commands to install:
+```
+brew install git-lfs
+git lfs install
+```
 
 
 pod 'VeracitySDK', :git => 'https://github.com/oneprove/ios-public-sdk.git'
@@ -339,9 +343,15 @@ let createItemStream = ProtectItemStreamImpl()
 createItemStream.update(itemName: "<item_name>")
 createItemStream.update(dimension: <your_item_dimension>)
 createItemStream.update(croppedPhoto: <your_item_cropped_image>)
+createItemStream.update(algo: <your_algo>)
 createItemStream.observerItemStateChange { state in
     // Handle item state change (see 10. Item State)
 }
+
+/// Set your takefinger type (.default or .overlay)
+/// Overlay only show if dimension > (7.5x10)
+createItemStream.changeTakeFingerprintType(<your type>)
+
 /// Start take fingerprints
 let vc = TakeFingerprintViewController(createItemStream: createItemStream)
 
@@ -375,6 +385,11 @@ verifyItemStream.updateItemToVerify(<item_to_verify>)
 verifyItemStream.observerItemStateChange { state in
     // handle item's state change here
 }
+
+/// Set your takefinger type (.default or .overlay)
+self.verifyItemStream.changeTakeFingerprintType(<type>)
+self.verifyItemStream.updateOverlayPhoto(<overlay photo>)
+            
 /// Start ```TakeFingerprintViewController``` to take fingerprints 
 let vc = TakeFingerprintViewController(verifyItemStream: verifyItemStream)
 
