@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ARCameraController-Swift.h</key>
 		<data>
-		WRxmY973MxBJHbnVWWkG3a/OZdc=
+		u3SHpcnFp/iGSC5iBUhEiCVrVYk=
 		</data>
 		<key>Headers/ARCameraController.h</key>
 		<data>
@@ -18,39 +18,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Q0X9YKTtkTjtBdzD83tndI3SwjQ=
+		CSl/vIrq9Rvx15j48L2HVIVyMyk=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8Eo6/cN5NXMbYEoWkoccZktxRzw=
+		Xz3gZaVKpY7+Niq8QUfcy6p7Qio=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		8Eo6/cN5NXMbYEoWkoccZktxRzw=
+		Xz3gZaVKpY7+Niq8QUfcy6p7Qio=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Q2K7vU6A8fpkcupBlTrf9c21eoU=
+		57ivfD6BOIWwOu/huKQdqLGgYu4=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mwqqyTqidMS/KeizP/IMFh5F56Q=
+		4CxAIJWABC2GdO3hE9irTUISBYg=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pBskcu6rSw2N8Lshs0QPL/PcpkM=
+		YEqXTerT/6mZa/r51UEu/hA46So=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Q2K7vU6A8fpkcupBlTrf9c21eoU=
+		57ivfD6BOIWwOu/huKQdqLGgYu4=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		mwqqyTqidMS/KeizP/IMFh5F56Q=
+		4CxAIJWABC2GdO3hE9irTUISBYg=
 		</data>
 		<key>Modules/ARCameraController.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		pBskcu6rSw2N8Lshs0QPL/PcpkM=
+		YEqXTerT/6mZa/r51UEu/hA46So=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Pu9Tdt2fre13dVH7amyDWN2fvHBBDQnTPuxTqtZtN4=
+			oWcZNAhJ3V2nxU7wVwBKH3CqZ+Wpeg+g1bVdDy/LYr0=
 			</data>
 		</dict>
 		<key>Headers/ARCameraController.h</key>
@@ -84,56 +84,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtYuOzU1zFF6I4QHItiwpregX6SiuhHPvkSJv/ZCwEM=
+			m+KxdI4oraOaA9YYVkfYGrC03XUrwxrCln5aS0EW2Dw=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtYuOzU1zFF6I4QHItiwpregX6SiuhHPvkSJv/ZCwEM=
+			m+KxdI4oraOaA9YYVkfYGrC03XUrwxrCln5aS0EW2Dw=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ltCoILZiz5YgivgFinzrpmmsVwrdUgahLXw3jAK7PUM=
+			VhQAOkoTA1UAERM8P8m6zj61bUvv8HGeFqAMh9mfh6k=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJTrUQmI/RHQp5RYKavzSQTrKZbornxDZdIVMt3DhZQ=
+			LKShiSN+MQ7V5YDq+PRQiBxPC80nMRN1otdL3ADWtvk=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5uuc7sybH3j7wmtmtBZ6gk2zk2/QsVC0/96uv1Ya0M=
+			MFge3lP9j7FM5aimeOMaiGBxn08Ssq4xpuof7SZHVeA=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ltCoILZiz5YgivgFinzrpmmsVwrdUgahLXw3jAK7PUM=
+			VhQAOkoTA1UAERM8P8m6zj61bUvv8HGeFqAMh9mfh6k=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJTrUQmI/RHQp5RYKavzSQTrKZbornxDZdIVMt3DhZQ=
+			LKShiSN+MQ7V5YDq+PRQiBxPC80nMRN1otdL3ADWtvk=
 			</data>
 		</dict>
 		<key>Modules/ARCameraController.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5uuc7sybH3j7wmtmtBZ6gk2zk2/QsVC0/96uv1Ya0M=
+			MFge3lP9j7FM5aimeOMaiGBxn08Ssq4xpuof7SZHVeA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

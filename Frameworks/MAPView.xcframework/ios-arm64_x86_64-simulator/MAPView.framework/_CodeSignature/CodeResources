@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MAPView-Swift.h</key>
 		<data>
-		RzncSu8mItDaJE0wTMH0xYX9FeM=
+		2MpgcO+fE8sHqNX/CR7aCzanVUg=
 		</data>
 		<key>Headers/MAPView.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qs6l+I0RZNxbsn6GSDis5X03ao0=
+		9sO/M3YfUa7uatSTxEmPfeSPRm0=
 		</data>
 		<key>MAPView.nib</key>
 		<data>
@@ -26,67 +26,67 @@
 		</data>
 		<key>Modules/MAPView.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		G4ELrtJlNKNzqDnyMjJjs/Rf3I8=
+		K7BG+BYlr4eSUW6Pv5VarkQ6hEU=
 		</data>
 		<key>Modules/MAPView.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		G4ELrtJlNKNzqDnyMjJjs/Rf3I8=
+		K7BG+BYlr4eSUW6Pv5VarkQ6hEU=
 		</data>
 		<key>Modules/MAPView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Y4+RlFJiUFvJ/2pTxnIiyYkY+Og=
+		wGCV7Vogn2t0/ryb4KW5EJAXkI0=
 		</data>
 		<key>Modules/MAPView.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		Y4+RlFJiUFvJ/2pTxnIiyYkY+Og=
+		wGCV7Vogn2t0/ryb4KW5EJAXkI0=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8zcXPqYK0bTyrsHRpRyJYg9pneo=
+		t6NiGFaZXSrabSBW0HiPNdho+lo=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pWmDJM/eP52V/R7N2eMD78/3Lp0=
+		G0i43Kwt9VarbtehHGQhGentZ0c=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2u9zjF5GfHwXA/53PHHWm4uOf0U=
+		vCDkgP47piDHphW7RjnGb8BJZrY=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		8zcXPqYK0bTyrsHRpRyJYg9pneo=
+		t6NiGFaZXSrabSBW0HiPNdho+lo=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		pWmDJM/eP52V/R7N2eMD78/3Lp0=
+		G0i43Kwt9VarbtehHGQhGentZ0c=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		2u9zjF5GfHwXA/53PHHWm4uOf0U=
+		vCDkgP47piDHphW7RjnGb8BJZrY=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xwtHDU8gnYocty5hwpXdBUsw4sc=
+		BK2cLaRZlhE81Z3ozC5fXtpri3M=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KMF1M/7brAdRzaf01uCJOTuAVeo=
+		NESHjP2AUyF/RO5IHwBfk9eaduU=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tjiEgRrZL3hFnNziifLEQPoG6oU=
+		jMpJn69XJwvAhbyJCcU6iuPcyNQ=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		xwtHDU8gnYocty5hwpXdBUsw4sc=
+		BK2cLaRZlhE81Z3ozC5fXtpri3M=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		KMF1M/7brAdRzaf01uCJOTuAVeo=
+		NESHjP2AUyF/RO5IHwBfk9eaduU=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		tjiEgRrZL3hFnNziifLEQPoG6oU=
+		jMpJn69XJwvAhbyJCcU6iuPcyNQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7lxb9CoMOYmClVSpYYuigDW3eVEwMz4PNczBDPNtKz0=
+			kaxy899hDLuP5NmWDvWuKQx25Na/nSy2TW80cMWij/4=
 			</data>
 		</dict>
 		<key>Headers/MAPView.h</key>
@@ -127,112 +127,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fEXY9tH/oUILYpcqhBFLTKPsLDvar2F8YYcI2FgM/SY=
+			Xw33pwH+yc9MaG2LbJJOEOEQtFzhN1PSC0OLDdyBDg0=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fEXY9tH/oUILYpcqhBFLTKPsLDvar2F8YYcI2FgM/SY=
+			Xw33pwH+yc9MaG2LbJJOEOEQtFzhN1PSC0OLDdyBDg0=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJTGHYorr3Yz8HdQ5w7C2D0Iy8ZPHfS5VqRO7SCYAVg=
+			rhsnvoxkf5X815ln2JAJ2v/1h2EfbhkgjE/dLcwXcj0=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJTGHYorr3Yz8HdQ5w7C2D0Iy8ZPHfS5VqRO7SCYAVg=
+			rhsnvoxkf5X815ln2JAJ2v/1h2EfbhkgjE/dLcwXcj0=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GCaCoY9iJX+f08gtFnCnL6Lgu2Ihl8hdgovQfuEx+QQ=
+			rVFF14NKQL2VfRlUcjXdz2hGVzpRWRvdRTUF7iEs5GE=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nk/XqhRaEFR9x8d+RnpbxKuBuqLbTltR8LTxZGzmczU=
+			0ZMfUwdEpVAtcGoGLpzDlfOAoIpK9B67Fa0ozmZG9EI=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t9rlXgGUReW7e57CbVqHWvW2DbRrdo0gFxnXwOBsht0=
+			f806NJPgxPZfiK+ZMx4NNnUv4K45WTR9p8uVxjlaM2U=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GCaCoY9iJX+f08gtFnCnL6Lgu2Ihl8hdgovQfuEx+QQ=
+			rVFF14NKQL2VfRlUcjXdz2hGVzpRWRvdRTUF7iEs5GE=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nk/XqhRaEFR9x8d+RnpbxKuBuqLbTltR8LTxZGzmczU=
+			0ZMfUwdEpVAtcGoGLpzDlfOAoIpK9B67Fa0ozmZG9EI=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t9rlXgGUReW7e57CbVqHWvW2DbRrdo0gFxnXwOBsht0=
+			f806NJPgxPZfiK+ZMx4NNnUv4K45WTR9p8uVxjlaM2U=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZU9PjORM06coUR8sWObhe1mcHBLwl9RR6Q4XYP+XTk=
+			t07iIAN/5xMmoeUnLQAlsRb7N3lbfj8usSEY9bVLLw4=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4I0bs9d3bL4Gyt2ufLfsqSng0BX/XLaqvJoy2OpY7F0=
+			wSlCi46CBya9irnXum8PpUzBPFzrMJY5VeG280fNx+8=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VOCp3o/j1p1Az8klxrWWmiOqEfb3lagzQEyqhn5fang=
+			PWkyPpu3/62Fo4+VRzJ3XQ+kfoUkRyvK4qc7xNraNxo=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZU9PjORM06coUR8sWObhe1mcHBLwl9RR6Q4XYP+XTk=
+			t07iIAN/5xMmoeUnLQAlsRb7N3lbfj8usSEY9bVLLw4=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4I0bs9d3bL4Gyt2ufLfsqSng0BX/XLaqvJoy2OpY7F0=
+			wSlCi46CBya9irnXum8PpUzBPFzrMJY5VeG280fNx+8=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VOCp3o/j1p1Az8klxrWWmiOqEfb3lagzQEyqhn5fang=
+			PWkyPpu3/62Fo4+VRzJ3XQ+kfoUkRyvK4qc7xNraNxo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
