@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CaptureScheduler-Swift.h</key>
 		<data>
-		/y9Tky5Qbtt3fB3qIIQlQof95nU=
+		sUtxJJju62ofyWlIX/QysogkbQg=
 		</data>
 		<key>Headers/CaptureScheduler.h</key>
 		<data>
@@ -14,71 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KPy9IOIPb/3wtc9WMrt7PdGlnKU=
+		6jDIH30/hyZx03AyAO7k4Aerqeo=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		NZYRrEIR1q8NclKol/lziWSYGz8=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		NZYRrEIR1q8NclKol/lziWSYGz8=
+		pU445nCgOpqMfAeFW6bNS9bgINw=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FLgWx2B+BZHPi8F5Ka2PioIFrI4=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		FLgWx2B+BZHPi8F5Ka2PioIFrI4=
+		/4Zcm9rsVAIIeWl6eGrnkHDQmuQ=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UKUznJZKrB7lDn9kCoJwoxSUyZw=
+		BP0sASotWSK/ddW9MYYMuWPts0o=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		olpwafeNfCnVonTD23tM7MM9eQU=
+		HsQ0LxNGkcp9wsp7KhhyyhBJxrs=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9jTmWLpLCNcysNniwjJTYVZwULg=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		UKUznJZKrB7lDn9kCoJwoxSUyZw=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		olpwafeNfCnVonTD23tM7MM9eQU=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		9jTmWLpLCNcysNniwjJTYVZwULg=
+		33mmQbxQ6wgVyYGSN50I8tIGKeU=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dFjl22BbrbHY0qmXoiiRqoMWXlA=
+		SuBS5OiyHZvlxo9QUlaBPO8Mvuk=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s3yHVj7cQri2nEfSGAdK3FnVpJE=
+		miceK4VxyQpS2sGlGTH7adAV3zM=
 		</data>
 		<key>Modules/CaptureScheduler.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rjLbA28XRlNXAF2MrgawNl2wtC0=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		dFjl22BbrbHY0qmXoiiRqoMWXlA=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		s3yHVj7cQri2nEfSGAdK3FnVpJE=
-		</data>
-		<key>Modules/CaptureScheduler.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		rjLbA28XRlNXAF2MrgawNl2wtC0=
+		MRJun8XvfJZvG+WYJkZoyy6nims=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKXCtvGcyGS8ATZzET7ZPJF0/0Zsr/PTFvg567e8DbI=
+			bo0+pA4sHBo6a6qUt1yUzX2UeMMpprTWaNjKVIYscek=
 			</data>
 		</dict>
 		<key>Headers/CaptureScheduler.h</key>
@@ -105,112 +73,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			re1vXwhBfar1ZY4ws+cuSYEJW+kAkj9xTlDFYnFERqI=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			re1vXwhBfar1ZY4ws+cuSYEJW+kAkj9xTlDFYnFERqI=
+			jolbY+dxe8iG2sTrT5Tt+x9N5nKwDt4NQLIv6/cViy4=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UQYWZhXiEi77s5ThHhw3Okwvm+TwdysfOwq13XD6aeI=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UQYWZhXiEi77s5ThHhw3Okwvm+TwdysfOwq13XD6aeI=
+			MmBkdpwinzaiWJirp1n+8Y9ZOk/obU1SwkG5y+Rdrow=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5lrF5KmFwizxZNzn9pJ/Eh+V4p1eF+bfjpg5cjyckXQ=
+			fcfOEOxFpuxlbMRMVUDv60d5wMYu7GAJQ78prBksv0s=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTMmy780dIoWPU25EXWtZVeuZTgJQqSQVsICOU+2hGQ=
+			r8389JCwSrSiyWCTJadhzI0BBI/SzGnFYA/lixwqnzw=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OwxoqCVU8rXcFs+2PYxh/pCz9SFw/aB/JaUpYDzKBpE=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5lrF5KmFwizxZNzn9pJ/Eh+V4p1eF+bfjpg5cjyckXQ=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VTMmy780dIoWPU25EXWtZVeuZTgJQqSQVsICOU+2hGQ=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OwxoqCVU8rXcFs+2PYxh/pCz9SFw/aB/JaUpYDzKBpE=
+			1DDhGr8v7mElbQv3uOVG4hO3VVULBPoFbQF0w7JuUxk=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUdoQSWEzVWK1A3rBvzzp0JPXBimU6xXf5HHHnCiSd4=
+			bh98kjcR+vWf1KWSdI7J3L2zvCTEbhGNqfm8woaY0Z4=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeP8W8HnxiMwrASBrhbqARYAujy5NVZnQ4K3CCSoKB0=
+			u88X00rN40ry0oJwB9+dzINIfh9bzxwv1xJ8CGzb/LE=
 			</data>
 		</dict>
 		<key>Modules/CaptureScheduler.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yy7fsjO+pXBr4GlbtCfoB48Zok7nY5pVQetSiqej0Xo=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fUdoQSWEzVWK1A3rBvzzp0JPXBimU6xXf5HHHnCiSd4=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MeP8W8HnxiMwrASBrhbqARYAujy5NVZnQ4K3CCSoKB0=
-			</data>
-		</dict>
-		<key>Modules/CaptureScheduler.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yy7fsjO+pXBr4GlbtCfoB48Zok7nY5pVQetSiqej0Xo=
+			ebckp/yRhRHlMtI4IBvk9TA3TF7W9hJaeafv2IIcfG8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

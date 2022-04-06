@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MLPatchExtractor-Swift.h</key>
 		<data>
-		S2z7td8PQ5mn06Tt/pRDRwx2ibU=
+		d9cZ3lyn1nYmpWVOsQdHExLsG8s=
 		</data>
 		<key>Headers/MLPatchExtractor.h</key>
 		<data>
@@ -14,71 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oSW2iqUhqtbaEfY0MiiD9Qhme/Y=
+		3unEDkEZPNn3fFtsez06/pikF+c=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8ak4MqTU6Q/RVi8dYTM6iCSJ53A=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		8ak4MqTU6Q/RVi8dYTM6iCSJ53A=
+		tdYDuPiIGcNuvZ/BQMzPogjbme8=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bEY3uSXUgKvcV/J7uXQf9FZJUZ4=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		bEY3uSXUgKvcV/J7uXQf9FZJUZ4=
+		UUYFaQhArg6DurI9suuqnoHaAu8=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bIvwJQ2hhJfTt5+ZabyPv2fGMxk=
+		vMfm5aCeeqW3jHrtNmztWLai028=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3tvfgkbnXxUKMPmjJR9S4KE+jj8=
+		w49szmm6urXw/SGoTJHRL3to7Yo=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HcvSg8jsbg5x2ROzZpQFJWJq/Os=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		bIvwJQ2hhJfTt5+ZabyPv2fGMxk=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		3tvfgkbnXxUKMPmjJR9S4KE+jj8=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		HcvSg8jsbg5x2ROzZpQFJWJq/Os=
+		T/APZkZwRQavcd2y1RkwGXVo/9I=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+dZeAG5LHHIhBX9GQkzMXJ7K32c=
+		9ueAg0aCEYnWbs4P0VUPAqrG6ng=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZOAmc1/9J/BMeLV3u7/mAlNBUvM=
+		rFQ/4pJF1LBaNKqsTTr4h8mLBHE=
 		</data>
 		<key>Modules/MLPatchExtractor.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		olJVwlnZ/b/WlL/Qu4bzFCMRJNk=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		+dZeAG5LHHIhBX9GQkzMXJ7K32c=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		ZOAmc1/9J/BMeLV3u7/mAlNBUvM=
-		</data>
-		<key>Modules/MLPatchExtractor.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		olJVwlnZ/b/WlL/Qu4bzFCMRJNk=
+		Y5M/W+pPFI6NDWRvmillRfyECyo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mpuol/njfQKUD8zToK6gqdGhcR14shUAoJuKtGTfqY=
+			V1avDipMHN1CbKFFxLlzm6NZHXbn+chjvIBIGCW51w0=
 			</data>
 		</dict>
 		<key>Headers/MLPatchExtractor.h</key>
@@ -105,112 +73,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RpwZMITfJRnSirrUZrUmvzqQIWq+VhAe0a78jkEG7gw=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RpwZMITfJRnSirrUZrUmvzqQIWq+VhAe0a78jkEG7gw=
+			LZTrDmmtqXHYPQGWKZbJR3hoS48TH0CncINjKCJwOGk=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g9m3sP7VFdfR2BwvYyoZgxDhx2wAqTaye2j/1W4V8Rw=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g9m3sP7VFdfR2BwvYyoZgxDhx2wAqTaye2j/1W4V8Rw=
+			ZCfMIqIQeJTLcDKp1wqrLVREFX+OrKOohoaNk5aGj+o=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FLWAhR329gMQpGQugfD+Xdbwsjf92TgGJO9t3YWm4lk=
+			+uKGxTWzrhZzKVdzC5QYb93sEai5jFua9qS1/B5k8eI=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqEwRBGsgKKhXEtNl2f2UI1vSKg6z+POQPj0EzpFWnM=
+			jiMzJtQ22HQUT4sJYfslBRUGUl0hPiIw9AZSDlEiXCg=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			koCkd6hhzycFk9W3XNQ4OIPJiX4OdYhKd1rrDFZufu4=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FLWAhR329gMQpGQugfD+Xdbwsjf92TgGJO9t3YWm4lk=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uqEwRBGsgKKhXEtNl2f2UI1vSKg6z+POQPj0EzpFWnM=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			koCkd6hhzycFk9W3XNQ4OIPJiX4OdYhKd1rrDFZufu4=
+			5AC2hnKYjOknTSN6hmelcrH4Ts0x4j47cdTFx+b5/78=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ly6yOVR33jg50W7vIxzNRlTQmxIlqdoBPvtXUtDZ1u4=
+			ZFZ0dROrdWFG/O7Edid1+nQbq/wDJHrkzh0fSyJVIJo=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			26ZybZcRNMN2kbMtUSpXM6OlIEMJKHiv2PBbNkdsLnY=
+			vlz/Nrd60b7JXq6qBrqCZPSA0CvSJwzllJVKwqlOy1I=
 			</data>
 		</dict>
 		<key>Modules/MLPatchExtractor.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3lvoezTk+yrlRId1EeFeDmcvO8AzXtUWJxoiEfxLg4=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ly6yOVR33jg50W7vIxzNRlTQmxIlqdoBPvtXUtDZ1u4=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			26ZybZcRNMN2kbMtUSpXM6OlIEMJKHiv2PBbNkdsLnY=
-			</data>
-		</dict>
-		<key>Modules/MLPatchExtractor.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H3lvoezTk+yrlRId1EeFeDmcvO8AzXtUWJxoiEfxLg4=
+			JOd5UyOvVFHRLzXR9lzSwAMf3MKy4KrXxjPErvXkgfg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

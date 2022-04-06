@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SequentialBlurDetector-Swift.h</key>
 		<data>
-		UPvv4dqVohaC5lDQkgqXGNN8G8Q=
+		ojlkFxU3A1e/ex/YAa6MVpucp9k=
 		</data>
 		<key>Headers/SequentialBlurDetector.h</key>
 		<data>
@@ -14,71 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		47DYw6zheUNnVa/bWHTRPLfmf+Y=
+		kGEpPMWk6PxGD1bIjzc+7JnEj1M=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		4kI4Jb4D7+v29kGm+mf4gz9S41g=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		4kI4Jb4D7+v29kGm+mf4gz9S41g=
+		lxzS8dKWP8opT+2ec2sTxcMkk6M=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		httZOOXn4MmY6nkHoJ0FsD51TWs=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		httZOOXn4MmY6nkHoJ0FsD51TWs=
+		mJmPnQQjwQwjPoLTBk9KeR3szIY=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EGYNp+4FHNUGNHuODdN1d0z2P8A=
+		9Iq95AiSjWSHiT9oo+fZoxvYSDE=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DntXPYkR5Ri7hvZ9mQu8Yf3U9Xw=
+		WG0vg1Zmq7Ks/OuA+MbAaAEQufQ=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LXAd5+CH14Z0CsGyR1yqghwdSFE=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		EGYNp+4FHNUGNHuODdN1d0z2P8A=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		DntXPYkR5Ri7hvZ9mQu8Yf3U9Xw=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		LXAd5+CH14Z0CsGyR1yqghwdSFE=
+		1hEXB1Hcrr99mSV1iKFajk9ovT4=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		J9Z/aO4iKjLwJUlXICy+PXFeTZ8=
+		KGeZyrddSDxCZpsNFCxmnPy7pdo=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hm0KOp2GcqUF4ESX2cgF5wtFk+0=
+		NExBadlATFpK+Hf8OC6WfPbxL64=
 		</data>
 		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QgdDgYk6hJkwRX9rkX7X/HLrZoA=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		J9Z/aO4iKjLwJUlXICy+PXFeTZ8=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		hm0KOp2GcqUF4ESX2cgF5wtFk+0=
-		</data>
-		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		QgdDgYk6hJkwRX9rkX7X/HLrZoA=
+		1domMJCc/DSsgSDzU7E071vALOU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			82ZO3Y8jveXTY05YOaoyTd4dtsBExTC99gaM9P+y+DI=
+			mZERSwtx6YFiia+PmIF7XJgLkssEVdAzu/jJxp8n5cQ=
 			</data>
 		</dict>
 		<key>Headers/SequentialBlurDetector.h</key>
@@ -105,112 +73,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E6MF/8H4D8VW6K2V8HNAH9CYv25GdMaqqt4aTdJ1OQw=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E6MF/8H4D8VW6K2V8HNAH9CYv25GdMaqqt4aTdJ1OQw=
+			SKvZJk7PLNl8YI1s5BtdptBvhID38OsvuL4wxD19qOk=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3y8ezQ0YjU4LIpoklSVViYFbrQeBIoBoz8T0JS6WCfI=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3y8ezQ0YjU4LIpoklSVViYFbrQeBIoBoz8T0JS6WCfI=
+			j/SNZbN1kzXHTgwglI/cMV4AlAVPXEBY4QGhJ1y7p24=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uvw4xK3vG/2NZpeHZxWqgrKYVH+w72ILdVybjvfvWVg=
+			F6ba1llvn7K566TDsXwM+ahIC0+Mj93i72yaDJKyiL4=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OkA46l07PnZKejecko6sHC7bimiVojlWi043NJwjQ38=
+			fscRo544Mrm7u1H9fH+RDvp4v+cl+YvhpxBQAEljYRQ=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rOmYlNs9ZkeMNWSMR89BsKeac5ozy9eoDwynaMmo+Ms=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uvw4xK3vG/2NZpeHZxWqgrKYVH+w72ILdVybjvfvWVg=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OkA46l07PnZKejecko6sHC7bimiVojlWi043NJwjQ38=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rOmYlNs9ZkeMNWSMR89BsKeac5ozy9eoDwynaMmo+Ms=
+			STF1mp8HeY2UXNcVTJee1OqkGd0oWLBKwZM8wvzJZRQ=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/76lId6MY09qASiWy1EJFasFqCtL5IKRa7mOAmuM1oo=
+			MRD2F/MI1lpvlvFR4xEm5s8ZBf6DPK82fWAtsT2toiQ=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JFLorwX31OTYVvdbGd/I41ZazBG5HESEjJQ5uqICDDQ=
+			F6In2Cb/WPuIBjgiGSnd8ZIeJDscsmtYXzVO3wATXEs=
 			</data>
 		</dict>
 		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mM/Yc4BKTPrkzMTr7TRa5FsVfUwqSD6HKoXcTZt5Go=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/76lId6MY09qASiWy1EJFasFqCtL5IKRa7mOAmuM1oo=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JFLorwX31OTYVvdbGd/I41ZazBG5HESEjJQ5uqICDDQ=
-			</data>
-		</dict>
-		<key>Modules/SequentialBlurDetector.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+mM/Yc4BKTPrkzMTr7TRa5FsVfUwqSD6HKoXcTZt5Go=
+			pUTTT4nfV6u5yb+ORfRzdpj1bQJ0kL3lyM3RXloU5cM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

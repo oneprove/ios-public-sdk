@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MAPView-Swift.h</key>
 		<data>
-		2MpgcO+fE8sHqNX/CR7aCzanVUg=
+		tL3p2+JwO1xJ3ZMY2fUUmVTsWHg=
 		</data>
 		<key>Headers/MAPView.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9sO/M3YfUa7uatSTxEmPfeSPRm0=
+		4HH5ax27yvP8qhQe4jToGnhDutU=
 		</data>
 		<key>MAPView.nib</key>
 		<data>
@@ -26,67 +26,35 @@
 		</data>
 		<key>Modules/MAPView.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		K7BG+BYlr4eSUW6Pv5VarkQ6hEU=
-		</data>
-		<key>Modules/MAPView.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		K7BG+BYlr4eSUW6Pv5VarkQ6hEU=
+		5szkLE2azDYfX9kM9G9dxdsWsZQ=
 		</data>
 		<key>Modules/MAPView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		wGCV7Vogn2t0/ryb4KW5EJAXkI0=
-		</data>
-		<key>Modules/MAPView.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		wGCV7Vogn2t0/ryb4KW5EJAXkI0=
+		HUWhLokaehjifjgo8bzbKLNl5Cg=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t6NiGFaZXSrabSBW0HiPNdho+lo=
+		fFnf6tifzGJGU4dsHvYC/U32gr8=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		G0i43Kwt9VarbtehHGQhGentZ0c=
+		ZwbC98Jks/r+ew+wi8BzJsbQv6E=
 		</data>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vCDkgP47piDHphW7RjnGb8BJZrY=
-		</data>
-		<key>Modules/MAPView.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		t6NiGFaZXSrabSBW0HiPNdho+lo=
-		</data>
-		<key>Modules/MAPView.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		G0i43Kwt9VarbtehHGQhGentZ0c=
-		</data>
-		<key>Modules/MAPView.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		vCDkgP47piDHphW7RjnGb8BJZrY=
+		zkzLCqFNHkAIP2t1Sis32ahAVpM=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BK2cLaRZlhE81Z3ozC5fXtpri3M=
+		x1jNLlV6K3ZVeruYkmHmAaacAT8=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NESHjP2AUyF/RO5IHwBfk9eaduU=
+		HfJzPif2t8t09g4La6yaBNHr/AM=
 		</data>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jMpJn69XJwvAhbyJCcU6iuPcyNQ=
-		</data>
-		<key>Modules/MAPView.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		BK2cLaRZlhE81Z3ozC5fXtpri3M=
-		</data>
-		<key>Modules/MAPView.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		NESHjP2AUyF/RO5IHwBfk9eaduU=
-		</data>
-		<key>Modules/MAPView.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		jMpJn69XJwvAhbyJCcU6iuPcyNQ=
+		VR0AEB6MzcMylFl4X5Ci20/N7ms=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kaxy899hDLuP5NmWDvWuKQx25Na/nSy2TW80cMWij/4=
+			XCZdZXPUAANjl3mo8sin+eIxfnlsKXu4I3DKQIZPj9k=
 			</data>
 		</dict>
 		<key>Headers/MAPView.h</key>
@@ -127,112 +95,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xw33pwH+yc9MaG2LbJJOEOEQtFzhN1PSC0OLDdyBDg0=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Xw33pwH+yc9MaG2LbJJOEOEQtFzhN1PSC0OLDdyBDg0=
+			D5dLuJQsZR4y2H/dc/lSg0PX5V2RyB2hK3rOBzWAS/Y=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rhsnvoxkf5X815ln2JAJ2v/1h2EfbhkgjE/dLcwXcj0=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rhsnvoxkf5X815ln2JAJ2v/1h2EfbhkgjE/dLcwXcj0=
+			/W/DU/dPRuOG8z6oRR6qAqqfHjT/KKGkLrX7odQ4Z7s=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVFF14NKQL2VfRlUcjXdz2hGVzpRWRvdRTUF7iEs5GE=
+			wFN3MYOSRglarshqgAPt8pd48qFUjjDW96oYcFg6bGg=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ZMfUwdEpVAtcGoGLpzDlfOAoIpK9B67Fa0ozmZG9EI=
+			eNcpESKSY+tREDz/dyoIse6Um8Dh6nQWqjDU7En2fFk=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f806NJPgxPZfiK+ZMx4NNnUv4K45WTR9p8uVxjlaM2U=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rVFF14NKQL2VfRlUcjXdz2hGVzpRWRvdRTUF7iEs5GE=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0ZMfUwdEpVAtcGoGLpzDlfOAoIpK9B67Fa0ozmZG9EI=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			f806NJPgxPZfiK+ZMx4NNnUv4K45WTR9p8uVxjlaM2U=
+			XS+uGUQDdoTmx9TaDIlOhSpWLvdNNNbG3uXMAv0aRhI=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t07iIAN/5xMmoeUnLQAlsRb7N3lbfj8usSEY9bVLLw4=
+			8GtwbR3lO60n6oiddxCS/4tQXjWJBV6eNy276kwZ9pQ=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wSlCi46CBya9irnXum8PpUzBPFzrMJY5VeG280fNx+8=
+			tF2pLjzyI1+V4f9IWHQ4z7n2EXApmgAuHQRnEQTwQb0=
 			</data>
 		</dict>
 		<key>Modules/MAPView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PWkyPpu3/62Fo4+VRzJ3XQ+kfoUkRyvK4qc7xNraNxo=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			t07iIAN/5xMmoeUnLQAlsRb7N3lbfj8usSEY9bVLLw4=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wSlCi46CBya9irnXum8PpUzBPFzrMJY5VeG280fNx+8=
-			</data>
-		</dict>
-		<key>Modules/MAPView.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PWkyPpu3/62Fo4+VRzJ3XQ+kfoUkRyvK4qc7xNraNxo=
+			ZSNSr9CWHyGPpQlZnsdpR4l2pjz7iNVKjoHpj2Eyd9g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
