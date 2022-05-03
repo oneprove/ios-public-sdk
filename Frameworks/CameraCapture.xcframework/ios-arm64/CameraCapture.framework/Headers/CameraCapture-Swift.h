@@ -238,6 +238,11 @@ SWIFT_CLASS("_TtC13CameraCapture13CameraCapture")
 - (void)captureOutput:(AVCaptureOutput * _Nonnull)output didDropSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 @end
 
+@class NSNotification;
+
+@interface CameraCapture (SWIFT_EXTENSION(CameraCapture))
+- (void)deviceSubjectAreaDidChange:(NSNotification * _Nonnull)notification;
+@end
 
 
 
